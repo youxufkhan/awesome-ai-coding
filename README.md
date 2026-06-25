@@ -22,13 +22,14 @@ CLI agents run directly inside your terminal, executing shell commands, reading/
 | **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Google Gemini | An open-source, terminal-first AI agent powered by Gemini. | ReAct loops, Model Context Protocol (MCP) support, Google search grounding, local tool execution, GitHub Actions integration. |
 | **[Claude Code](https://github.com/anthropics/claude-code)** | Anthropic | Command-line agent powered by Claude. | Deep codebase reasoning, up to 1M token context, agentic terminal loops, interactive multi-file editing. |
 | **[Antigravity CLI](https://github.com/google-deepmind/antigravity)** | Google DeepMind | Advanced agentic CLI pair programmer. | Parallel subagent orchestration, automated testing, built-in browser sandboxing, Google ecosystem integration. |
+| **[Goose](https://github.com/block/goose)** | Block | An open-source AI agent that runs in your terminal or as a desktop app. | Edits code, runs commands, integrates with MCP, executes complex multi-step plans. |
 | **[OpenCode](https://github.com/anomalyco/opencode)** | Anomaly | An open-source, model-agnostic coding agent. | TUI support, 75+ model providers supported, LSP diagnostics, git-based snapshot recovery, command workflows. |
 | **[OpenAI Codex CLI / Codex](https://github.com/openai/openai-cookbook)** | OpenAI | Terminal-based interfaces utilizing OpenAI models. | Fast code generation, scripting, API-driven terminal workflows, sandboxed shell execution. |
 | **[Pi Agent](https://github.com/earendil-works/pi)** | Earendil Works | A terminal-first AI agent toolkit and harness. | Unified LLM API, agent loop, interactive TUI, session persistence, modular tool architecture. |
 | **[Oh My Pi](https://github.com/can1357/oh-my-pi)** | can1357 | A terminal-native AI coding agent with advanced tool harness. | Hash-anchored edits, LSP integration, browser automation, subagent delegation. |
 | **[Aider](https://github.com/aider-chat/aider)** | Aider-chat | Terminal-based pair programmer that works with local & cloud LLMs. | Git-aware, edits multiple files, automatic commit generation, test-driven coding support. |
+| **[OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands)** | All-Hands AI | An open-source autonomous agent designed to solve complex software engineering tasks. | Sandboxed execution (Docker), agentic planning, multi-file workspace editing, web-browsing capabilities. |
 | **[SWE-agent](https://github.com/princeton-nlp/SWE-agent)** | Princeton NLP | An agentic framework that turns LLMs into software engineering agents. | Custom Agent-Computer Interface (ACI), runs inside secure Docker containers, highly successful on SWE-bench. |
-| **[OpenDevin / All-Hands](https://github.com/All-Hands-AI/OpenDevin)** | All-Hands AI | An open-source autonomous agent designed to solve complex software engineering tasks. | Sandboxed execution (Docker), agentic planning, multi-file workspace editing, web-browsing capabilities. |
 | **[Plandex](https://github.com/plandex-ai/plandex)** | Plandex AI | Terminal-based AI agent designed to manage large tasks across multiple files. | Sandboxed editing, robust branch management, handles complex tasks step-by-step. |
 | **[Mentat](https://github.com/ggarrett8/mentat)** | Mentat | Command-line AI coding assistant that coordinates directly with your codebase context. | High-speed diff edits, interactive command loop, customized file indexing. |
 | **[GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)** | GPT-Engineer Org | CLI tool that builds entire codebases from a single text prompt. | Multi-file code generation, modular framework setup, interactive prompt clarification. |
@@ -91,7 +92,9 @@ Extensions that integrate directly into popular editors (VS Code, JetBrains, Neo
 | **Gemini CLI** | CLI Agent | Yes | Yes | Via custom MCP tools / proxy wrappers |
 | **Claude Code** | CLI Agent | No | No | Built-in warnings, compatible with proxies |
 | **Antigravity CLI** | CLI Agent | Yes | Yes | Local environment variable encryption |
+| **Goose** | CLI Agent | Yes | Yes | Via MCP-based security plugins |
 | **OpenCode** | CLI Agent / TUI | Yes | Yes | Local model mode preserves all code locally |
+| **OpenHands** | CLI Agent / Web app | Yes | Yes | Sandbox isolation, privacy configuration |
 | **SWE-agent** | CLI Agent / Framework | Yes | Yes | Isolated container prevents host network leakage |
 | **Cursor** | IDE | No | Partial | Privacy Mode toggles data opt-out |
 | **Continue** | Extension | Yes | Yes | Local/Ollama integration ensures absolute privacy |
