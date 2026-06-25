@@ -263,16 +263,18 @@ Structured courses, notebooks, and reference materials designed to teach develop
 
 | Tool | Category | Licensing | Primary Language / Stack | Best Suited For... |
 | :--- | :--- | :--- | :--- | :--- |
-| **Gemini CLI** | CLI Agent | MIT | TypeScript / Node.js | Fast, tool-equipped CLI coding using Google Gemini models |
-| **Claude Code** | CLI Agent | Proprietary | TypeScript / Node.js | Multi-file codebase adjustments using Claude |
+| **[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws)** | MCP Server | Apache-2.0 | Python | Exposing AWS services securely to coding agents via MCP |
 | **Antigravity CLI** | CLI Agent | Proprietary | Python / CLI | Sandboxed multi-agent and browser-based test loops |
-| **Goose** | CLI Agent | Apache-2.0 | Rust / Python | Executing task checklists with MCP plugins |
-| **OpenHands** | CLI Agent / Web | Apache-2.0 | Python / Docker | Isolated container-level SWE benchmarks and repairs |
-| **LangGraph** | Agent Framework | MIT | Python / JS | Custom stateful multi-agent workflows and graph logic |
-| **CrewAI** | Agent Framework | MIT | Python | Role-based agent teams mimicking human software processes |
-| **Ollama** | Serving Engine | MIT | Go / C++ | Running and exposing open-weights models locally |
+| **Claude Code** | CLI Agent | Proprietary | TypeScript / Node.js | Multi-file codebase adjustments using Claude |
 | **CodeGate** | Security Proxy | Apache-2.0 | Go / Rust | Masking secrets and PII from outgoing LLM traffic |
+| **CrewAI** | Agent Framework | MIT | Python | Role-based agent teams mimicking human software processes |
 | **Cursor** | Native IDE | Proprietary | VS Code Fork | The most polished, complete AI-native coding environment |
+| **Gemini CLI** | CLI Agent | MIT | TypeScript / Node.js | Fast, tool-equipped CLI coding using Google Gemini models |
+| **Goose** | CLI Agent | Apache-2.0 | Rust / Python | Executing task checklists with MCP plugins |
+| **gstack** | Custom Skill Pack | MIT | TypeScript | Opinionated agent roles (CEO, Designer, Doc Engineer) for Claude Code |
+| **LangGraph** | Agent Framework | MIT | Python / JS | Custom stateful multi-agent workflows and graph logic |
+| **Ollama** | Serving Engine | MIT | Go / C++ | Running and exposing open-weights models locally |
+| **OpenHands** | CLI Agent / Web | Apache-2.0 | Python / Docker | Isolated container-level SWE benchmarks and repairs |
 
 ---
 
