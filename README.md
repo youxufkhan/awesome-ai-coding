@@ -1,105 +1,189 @@
-# Awesome AI Coding Tools & Agents 🚀
+# Awesome AI Coding Tools, IDEs & Agents 🚀
 
-A curated list of awesome AI coding assistants, autonomous agents, AI-native IDEs, extensions, security proxies, and development frameworks. Designed to help developers find the right tooling for their workflow, from autocomplete extensions to fully autonomous terminal agents.
+A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-native IDEs, extensions, LLM orchestrators, inference engines, vector databases, MCP servers, and security proxies. Organized to help developers find the right tools for building AI-powered systems or accelerating their engineering workflows.
 
 ---
 
 ## 📂 Table of Contents
-- [🤖 AI Coding CLI Agents](#-ai-coding-cli-agents)
-- [🛡️ PII & Security Proxies for AI Agents](#️-pii--security-proxies-for-ai-agents)
-- [💻 AI-Native IDEs & Workspaces](#-ai-native-ides--workspaces)
+- [🤖 AI Coding CLI Agents & SWE Systems](#-ai-coding-cli-agents--swe-systems)
+- [💻 AI-Native IDEs & Cloud Workspaces](#-ai-native-ides--cloud-workspaces)
 - [🧩 AI Coding Extensions & Plugins](#-ai-coding-extensions--plugins)
+- [🛡️ PII Masking & AI Agent Security Proxies](#️-pii-masking--ai-agent-security-proxies)
+- [⚙️ AI Agent Frameworks & Multi-Agent Platforms](#️-ai-agent-frameworks--multi-agent-platforms)
+- [🛠️ LLM DevTools & Orchestration Infrastructure](#️-llm-devtools--orchestration-infrastructure)
+- [🔌 Model Context Protocol (MCP) Servers](#-model-context-protocol-mcp-servers)
+- [⚡ LLM Inference & Local Serving Engines](#-llm-inference--local-serving-engines)
+- [🗄️ Vector Databases & Vector Stores](#️-vector-databases--vector-stores)
+- [🎨 Vibe Coding & Generative UI Tools](#-vibe-coding--generative-ui-tools)
 - [📊 Quick Comparison Matrix](#-quick-comparison-matrix)
 - [🤝 Contributing](#-contributing)
 
 ---
 
-## 🤖 AI Coding CLI Agents
-CLI agents run directly inside your terminal, executing shell commands, reading/writing files, running tests, diagnosing compiler/interpreter errors, and managing Git changes autonomously.
+## 🤖 AI Coding CLI Agents & SWE Systems
+Autonomous CLI-first software engineering agents that can write code, run commands, execute tests, manage git changes, and solve issues.
 
-| Agent | Creator / Repository | Description | Key Features |
+| Repository / Agent | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
-| **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Google Gemini | An open-source, terminal-first AI agent powered by Gemini. | ReAct loops, Model Context Protocol (MCP) support, Google search grounding, local tool execution, GitHub Actions integration. |
-| **[Claude Code](https://github.com/anthropics/claude-code)** | Anthropic | Command-line agent powered by Claude. | Deep codebase reasoning, up to 1M token context, agentic terminal loops, interactive multi-file editing. |
-| **[Antigravity CLI](https://github.com/google-deepmind/antigravity)** | Google DeepMind | Advanced agentic CLI pair programmer. | Parallel subagent orchestration, automated testing, built-in browser sandboxing, Google ecosystem integration. |
-| **[Goose](https://github.com/block/goose)** | Block | An open-source AI agent that runs in your terminal or as a desktop app. | Edits code, runs commands, integrates with MCP, executes complex multi-step plans. |
-| **[OpenCode](https://github.com/anomalyco/opencode)** | Anomaly | An open-source, model-agnostic coding agent. | TUI support, 75+ model providers supported, LSP diagnostics, git-based snapshot recovery, command workflows. |
-| **[OpenAI Codex CLI / Codex](https://github.com/openai/openai-cookbook)** | OpenAI | Terminal-based interfaces utilizing OpenAI models. | Fast code generation, scripting, API-driven terminal workflows, sandboxed shell execution. |
-| **[Pi Agent](https://github.com/earendil-works/pi)** | Earendil Works | A terminal-first AI agent toolkit and harness. | Unified LLM API, agent loop, interactive TUI, session persistence, modular tool architecture. |
-| **[Oh My Pi](https://github.com/can1357/oh-my-pi)** | can1357 | A terminal-native AI coding agent with advanced tool harness. | Hash-anchored edits, LSP integration, browser automation, subagent delegation. |
-| **[Aider](https://github.com/aider-chat/aider)** | Aider-chat | Terminal-based pair programmer that works with local & cloud LLMs. | Git-aware, edits multiple files, automatic commit generation, test-driven coding support. |
-| **[OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands)** | All-Hands AI | An open-source autonomous agent designed to solve complex software engineering tasks. | Sandboxed execution (Docker), agentic planning, multi-file workspace editing, web-browsing capabilities. |
-| **[SWE-agent](https://github.com/princeton-nlp/SWE-agent)** | Princeton NLP | An agentic framework that turns LLMs into software engineering agents. | Custom Agent-Computer Interface (ACI), runs inside secure Docker containers, highly successful on SWE-bench. |
-| **[Plandex](https://github.com/plandex-ai/plandex)** | Plandex AI | Terminal-based AI agent designed to manage large tasks across multiple files. | Sandboxed editing, robust branch management, handles complex tasks step-by-step. |
-| **[Mentat](https://github.com/ggarrett8/mentat)** | Mentat | Command-line AI coding assistant that coordinates directly with your codebase context. | High-speed diff edits, interactive command loop, customized file indexing. |
-| **[GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)** | GPT-Engineer Org | CLI tool that builds entire codebases from a single text prompt. | Multi-file code generation, modular framework setup, interactive prompt clarification. |
-| **[Sweep](https://github.com/sweepai/sweep)** | Sweep AI | GitHub-native CLI / integration agent that turns issues into Pull Requests. | Auto-linting, automatic tests, code search, GitHub Action triggers. |
-| **[Devika](https://github.com/mufeedvh/devika)** | Mufeed VH | Open-source agentic coder inspired by Cognition's Devin. | Web research, code writing, planning, auto-execution of code, multi-agent structure. |
+| **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Google Gemini | Open-source, terminal-first AI agent powered by Gemini. | ReAct loops, MCP server compatibility, Google Search grounding, git workflows. |
+| **[Claude Code](https://github.com/anthropics/claude-code)** | Anthropic | Command-line agent powered by Claude models. | 1M+ token context window, deep reasoning, multi-file code workspace editing. |
+| **[Antigravity CLI](https://github.com/google-deepmind/antigravity)** | Google DeepMind | Advanced agentic CLI pair programmer. | Parallel subagent orchestration, sandboxed browser testing, deep git integration. |
+| **[Goose](https://github.com/block/goose)** | Block | Extensible open-source coding agent. | Local or desktop run modes, built-in MCP client, custom developer plugins. |
+| **[OpenCode](https://github.com/anomalyco/opencode)** | Anomaly | Model-agnostic terminal developer agent. | Go-based TUI, 75+ LLM providers supported, LSP diagnostics, version control snapshots. |
+| **[Aider](https://github.com/aider-chat/aider)** | Aider-chat | Git-integrated terminal pair programmer. | Edits files in-place, writes automatic git commits, works with local/remote LLMs. |
+| **[OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands)** | All-Hands AI | Docker-sandboxed autonomous coding agent. | Runs shell commands, browses the web, reads/writes code inside isolated containers. |
+| **[SWE-agent](https://github.com/princeton-nlp/SWE-agent)** | Princeton NLP | Agent-Computer Interface (ACI) coder framework. | Top SWE-bench performer, optimized file editing and search tools for LLMs. |
+| **[Pi Agent](https://github.com/earendil-works/pi)** | Earendil Works | Modular coding agent harness and TUI. | LLM connection wrapper, task state persistence, modular CLI tools. |
+| **[Oh My Pi](https://github.com/can1357/oh-my-pi)** | can1357 | High-performance terminal AI pair programmer. | Hash-anchored line diffing, LSP checking, subagent spawns. |
+| **[Plandex](https://github.com/plandex-ai/plandex)** | Plandex AI | Large-task codebase editor. | Sandboxed file staging, handles massive refactoring pipelines. |
+| **[Mentat](https://github.com/ggarrett8/mentat)** | Mentat | Context-aware codebase editor. | Customized file indexing, fast command loop, interactive diff views. |
+| **[GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)** | GPT-Engineer Org | Full codebase generator from prompts. | Generates complete frameworks, interactive query staging. |
+| **[Sweep](https://github.com/sweepai/sweep)** | Sweep AI | GitHub issue solver bot. | Automatic PR creation, lint fixing, and CI/CD validation. |
+| **[Devika](https://github.com/mufeedvh/devika)** | Mufeed VH | Open-source clone of Cognition's Devin. | Plan-execute-monitor coding loops, agentic browser search. |
+| **[OpenAI Codex CLI](https://github.com/openai/openai-cookbook)** | OpenAI | Basic terminal execution wrappers for Codex/GPT-4. | Script writing, direct terminal-based shell translations. |
 
 ---
 
-## 🛡️ PII & Security Proxies for AI Agents
-Since AI agents operate with direct codebase and terminal access, security proxies are essential to prevent Personally Identifiable Information (PII), secrets, and sensitive tokens from leaking to cloud LLMs.
+## 💻 AI-Native IDEs & Cloud Workspaces
+Integrated Development Environments (IDEs) built with AI agents at the center of the coding workflow.
 
-| Tool / Proxy | Creator / Project | Description | Key Features |
+| Editor / Workspace | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
-| **[CodeGate](https://github.com/StacklokLabs/spring-ai-codegate-sample)** | Stacklok | Privacy-respecting proxy sitting between IDE/CLI and the AI provider. | Intercepts requests, redacts PII and secrets, detects vulnerable packages, decrypts/re-injects variables locally. |
-| **[Clawshield](https://github.com/SleuthCo/clawshield-public)** | SleuthCo | Security proxy specifically tailored for developer agents. | YAML-based policy engines, tokenization of sensitive credentials, request auditing. |
-| **[Kiji Proxy](https://github.com/dataiku/kiji-proxy)** | Dataiku | Privacy proxy to mask PII in AI requests. | Configurable regex/NLP mapping, token hashing, lightweight middleware execution. |
-| **[WitnessAI](https://witness.ai)** | WitnessAI | Enterprise-grade governance and data loss prevention (DLP) for AI. | Deep policy enforcement, real-time agent auditing, sensitive database schema masking. |
-
----
-
-## 💻 AI-Native IDEs & Workspaces
-Standalone applications or highly integrated coding environments designed to put AI agents at the center of the user experience.
-
-| IDE / Workspace | Creator / Project | Description | Key Features |
-| :--- | :--- | :--- | :--- |
-| **[Cursor](https://www.cursor.com/)** | Anysphere | VS Code fork that acts as the leading AI-native code editor. | "Composer" (multi-file edit agent), tab-autocomplete, chat-with-codebase, inline edits. |
-| **[Windsurf](https://codeium.com/windsurf)** | Codeium | VS Code based editor focused on deep collaborative agentic loops. | "Windsurf Flow" (seamless agent collaboration), fast index systems, multi-file context tracking. |
-| **[PearAI](https://trypear.ai/)** | PearAI | An open-source, user-centric AI code editor forked from VS Code. | Built-in chat, inline refactoring, transparent usage tracking, completely open source. |
-| **[Zed AI](https://zed.dev/ai)** | Zed Decent | A high-performance, GPU-accelerated code editor with first-class AI integration. | Built-in Anthropic/OpenAI integrations, collaborative coding, multi-buffer edits, instant startup. |
-| **[Project IDX](https://idx.dev/)** | Google | Browser-based workspace built on Visual Studio Code for multiplatform app development. | Integrated Gemini assistant, pre-configured environments, cloud emulator previews. |
-| **[Melty](https://github.com/melty-labs/melty)** | Melty Labs | Open-source AI IDE that watches your coding patterns and automates tasks. | Git-aware changes, automated refactoring, codebase change tracing. |
-| **[GitHub Copilot Workspace](https://github.com/features/copilot)** | GitHub / Microsoft | A task-centric workspace designed to plan and implement changes in repository issues. | Interactive task list generation, step-by-step code plan, integrated cloud environment. |
-| **[Replit Agent](https://replit.com)** | Replit | Cloud-native agent that writes, runs, and deploys applications directly inside the browser. | Full-stack generation, instant deployments, interactive terminal & UI output. |
+| **[Cursor](https://www.cursor.com/)** | Anysphere | Leading VS Code fork with deep AI integration. | "Composer" multi-file agent, autocomplete, inline codebase chat, custom index. |
+| **[Windsurf](https://codeium.com/windsurf)** | Codeium | Agent-first IDE based on VS Code. | "Windsurf Flow" collaborative loops, fast indexing, persistent codebase context. |
+| **[PearAI](https://trypear.ai/)** | PearAI | Fully open-source VS Code fork. | Custom assistant panel, inline refactoring, privacy controls. |
+| **[Zed AI](https://zed.dev/ai)** | Zed Decent | High-performance, collaborative rust-based IDE. | Multi-buffer editing, instant startup, inline LLM chats (OpenAI/Anthropic). |
+| **[Project IDX](https://idx.dev/)** | Google | Cloud-based developer workspace. | Multiplatform templates, integrated Gemini chat, device emulators. |
+| **[Melty](https://github.com/melty-labs/melty)** | Melty Labs | Open-source IDE that learns from developers. | Tracks git actions, code pattern indexing, smart autocompletion. |
+| **[GitHub Copilot Workspace](https://github.com/features/copilot)** | GitHub / Microsoft | Task-centric cloud workspace. | Interactive issue plans, automated task lists, instant sandbox edits. |
+| **[Replit Agent](https://replit.com)** | Replit | Browser-based full-stack developer agent. | App creation, instant DB setup, one-click deployments. |
 
 ---
 
 ## 🧩 AI Coding Extensions & Plugins
-Extensions that integrate directly into popular editors (VS Code, JetBrains, Neovim) to augment your existing coding workflow.
+Augmentative extensions to supercharge traditional IDEs (VS Code, JetBrains, Neovim).
 
 | Extension | Platform Support | Creator | Description / Key Features |
 | :--- | :--- | :--- | :--- |
-| **[GitHub Copilot](https://github.com/features/copilot)** | VS Code, JetBrains, Visual Studio, Neovim | GitHub | Autocomplete, chat, pull request summaries, multi-line snippet generation. |
-| **[Continue](https://github.com/continuedev/continue)** | VS Code, JetBrains | Continue | Open-source, model-agnostic extension. Connects to any local (Ollama) or cloud LLM. |
-| **[Cline](https://github.com/cline/cline)** | VS Code | Cline | Open-source agent extension. Utilizes MCP to read/write files and execute terminal commands. |
-| **[Roo Code](https://github.com/RooVetGit/Roo-Code)** | VS Code | Roo Vet | Advanced fork of Cline with custom system prompt overrides, agent modes, and enhanced MCP. |
-| **[Cody](https://github.com/sourcegraph/cody)** | VS Code, JetBrains, Neovim | Sourcegraph | Codebase search, repository-wide indexing, code explanations. |
-| **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** | VS Code, JetBrains | AWS | Formerly CodeWhisperer. Deep integration with AWS APIs, cloud infrastructure suggestions, and security scanning. |
-| **[Supermaven](https://supermaven.com/)** | VS Code, JetBrains, Neovim | Supermaven | Extremely fast autocomplete with a massive 300,000-token context window. |
-| **[Codeium](https://codeium.com/)** | VS Code, JetBrains, Chrome, Neovim | Codeium | Free autocomplete and chat, codebase search, fast indexing. |
-| **[Double.bot](https://www.double.bot/)** | VS Code, JetBrains | Double | Context-rich autocomplete and multi-file code execution extension. |
-| **[Tabnine](https://www.tabnine.com/)** | VS Code, JetBrains, Eclipse | Tabnine | Secure assistant with options for local execution and enterprise privacy. |
-| **[Bito](https://bito.ai/)** | VS Code, JetBrains | Bito | AI assistant for generating tests, explaining code, and checking security vulnerabilities. |
+| **[GitHub Copilot](https://github.com/features/copilot)** | VS Code, JetBrains, Visual Studio, Neovim | GitHub | Fast autocomplete, chat panels, codebase indexing, PR description generator. |
+| **[Continue](https://github.com/continuedev/continue)** | VS Code, JetBrains | Continue | Open-source, model-agnostic extension. Connects to Ollama (local) or API keys. |
+| **[Cline](https://github.com/cline/cline)** | VS Code | Cline | Open-source agent interface. Reads/writes files and runs terminal commands via MCP. |
+| **[Roo Code](https://github.com/RooVetGit/Roo-Code)** | VS Code | Roo Vet | Cline fork with specialized agent modes, prompt overrides, and MCP diagnostics. |
+| **[Cody](https://github.com/sourcegraph/cody)** | VS Code, JetBrains, Neovim | Sourcegraph | Advanced semantic codebase search, code explanation, chat-with-docs. |
+| **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** | VS Code, JetBrains | AWS | Autocomplete, security scans, legacy code translation, AWS cloud integrations. |
+| **[Supermaven](https://supermaven.com/)** | VS Code, JetBrains, Neovim | Supermaven | Ultra-low latency autocomplete, large 300,000 token context window. |
+| **[Codeium](https://codeium.com/)** | VS Code, JetBrains, Xcode, Neovim | Codeium | Free autocomplete, chat, semantic search, local index building. |
+| **[Double.bot](https://www.double.bot/)** | VS Code, JetBrains | Double | High-accuracy inline editing, codebase context parsing. |
+| **[Tabnine](https://www.tabnine.com/)** | VS Code, JetBrains, Eclipse | Tabnine | Secure autocomplete with local offline models or private cloud deployments. |
+| **[Bito](https://bito.ai/)** | VS Code, JetBrains | Bito | AI helper for unit test generation, security checking, and explaining code. |
+
+---
+
+## 🛡️ PII Masking & AI Agent Security Proxies
+Middlewares and gatekeepers that intercept outgoing LLM requests to redact secrets, tokens, and Personally Identifiable Information (PII).
+
+| Tool / Proxy | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[CodeGate](https://github.com/StacklokLabs/spring-ai-codegate-sample)** | Stacklok | Privacy-first local proxy for IDE extensions/CLIs. | Detects/masks PII and API keys, warns of vulnerable packages, local decryption. |
+| **[Clawshield](https://github.com/SleuthCo/clawshield-public)** | SleuthCo | YAML-driven security gateway for dev agents. | Enforces prompt policies, logs outputs, filters outbound credentials. |
+| **[Kiji Proxy](https://github.com/dataiku/kiji-proxy)** | Dataiku | Lightweight PII masking proxy. | Regular expression and NLP-based token masking. |
+| **[WitnessAI](https://witness.ai)** | WitnessAI | Enterprise-grade AI proxy firewall. | Granular policy configurations, real-time agent auditing, schema obscuring. |
+
+---
+
+## ⚙️ AI Agent Frameworks & Multi-Agent Platforms
+Orchestration frameworks that allow developers to design, wire, and deploy complex autonomous agent teams.
+
+| Framework | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | Significant Gravitas | One of the earliest autonomous agent projects. | Multi-agent pipelines, web search, memory integration. |
+| **[LangGraph](https://github.com/langchain-ai/langgraph)** | LangChain AI | Stateful multi-agent graph orchestrator. | Cycles, human-in-the-loop, structured state, production-ready. |
+| **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft | Multi-agent conversation framework. | Customizable agent personalities, human-in-the-loop, conversable structures. |
+| **[CrewAI](https://github.com/crewAIInc/crewAI)** | CrewAI Inc | Role-based agent teams orchestration. | Easy agent role-play definitions, task delegation, sequential or hierarchical execution. |
+| **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** | FoundationAgents | Multi-agent framework mimicking software teams. | Simulates product managers, designers, and developers via standardized SOPs. |
+| **[BabyAGI](https://github.com/yoheinakajima/babyagi)** | Yohei Nakajima | Lightweight task-driven agent loop. | Simple agent architecture utilizing vector databases and task management pools. |
+| **[Agno](https://github.com/agno-agi/agno)** | Agno AI | Open-source framework for building multi-modal agents. | Fast execution, built-in vector integrations, multi-modal support. |
+
+---
+
+## 🛠️ LLM DevTools & Orchestration Infrastructure
+Libraries and SDKs to manage data pipelines, chain prompts, structure outputs, and monitor production AI applications.
+
+| Tool | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | LangChain AI | De facto standard ecosystem for LLM orchestration. | Chains, prompts, data connectors, custom tool integrations, LangSmith observability. |
+| **[Dify](https://github.com/langgenius/dify)** | LangGenius | Visual LLM app building and operations platform. | Workflow orchestrator, prompt engineering UI, vector db integrations, monitoring dashboards. |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | LlamaIndex | Data framework for LLM/RAG applications. | Data ingestors, indexing tools, structured queries, custom query engines. |
+| **[Flowise](https://github.com/FlowiseAI/Flowise)** | FlowiseAI | Drag & drop UI for building LangChain/LlamaIndex apps. | Visual nodes, instant API endpoints, chat widget deployments. |
+| **[Mem0](https://github.com/mem0ai/mem0)** | Mem0 | Personalized memory layer for AI agents. | Remembers user preferences, updates context over time, optimizes personalization. |
+
+---
+
+## 🔌 Model Context Protocol (MCP) Servers
+MCP is a protocol designed to connect LLMs to data, tools, filesystems, and external APIs. These servers expose local or remote systems to MCP-compliant agents (e.g. Gemini CLI, Claude Code, Cline).
+
+| MCP Server | Creator | Description | Tools / Access Exposed |
+| :--- | :--- | :--- | :--- |
+| **[MCP Servers Repo](https://github.com/modelcontextprotocol/servers)** | Anthropic | Standard repository of reference MCP servers. | Postgres, SQLite, Slack, GitHub, Puppeteer, Brave Search. |
+| **[Context7](https://github.com/upstash/context7)** | Upstash | Serverless state and tool cache. | Caches tool executions, manages state across agent handoffs. |
+| **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** | Microsoft | Browser automation server. | Exposes headless browser actions (navigate, click, type, screenshot). |
+| **[GitHub MCP Server](https://github.com/github/github-mcp-server)** | GitHub | Official GitHub API bridge. | Lists issues, manages PRs, commits changes, searches repositories. |
+
+---
+
+## ⚡ LLM Inference & Local Serving Engines
+Engines designed to run, serve, and perform inference with large language models locally or in private clouds.
+
+| Engine | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[Ollama](https://github.com/ollama/ollama)** | Ollama | Package and run LLMs locally on macOS, Linux, and Windows. | Simple CLI, one-line installs (Llama 3, Phi, Qwen), OpenAI compatible API. |
+| **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | GGML Org | High-performance inference engine in C/C++. | CPU/GPU execution, low memory overhead, broad hardware support. |
+| **[vLLM](https://github.com/vllm-project/vllm)** | vLLM Project | High-throughput, memory-efficient LLM serving engine. | PagedAttention, continuous batching, distributed inference, serving API. |
+| **[GPT4All](https://github.com/nomic-ai/gpt4all)** | Nomic AI | Desktop app and SDK for local LLM execution. | Runs locally on consumer GPUs/CPUs, built-in search/document RAG capabilities. |
+| **[LocalAI](https://github.com/mudler/LocalAI)** | mudler | Drop-in OpenAI replacement for local models. | Supports audio generation, images, embedding, and text models. |
+| **[Text-generation-webui](https://github.com/oobabooga/text-generation-webui)** | oobabooga | Gradio web UI for running local models. | Supports transformers, llama.cpp, ExLlamaV2, custom parameter sliders. |
+| **[Llamafile](https://github.com/Mozilla-Ocho/llamafile)** | Mozilla Ocho | Single-file executable for local LLMs. | Runs across 6 OS platforms without installations, fast CPU execution. |
+| **[SGLang](https://github.com/sgl-project/sglang)** | SGLang Project | Structured generation language & engine. | High throughput serving, prompt caching, JSON schema constraints. |
+
+---
+
+## 🗄️ Vector Databases & Vector Stores
+Specialized databases built to index, store, and query high-dimensional embeddings for RAG and agent memory.
+
+| Database | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[Milvus](https://github.com/milvus-io/milvus)** | Milvus | High-performance, distributed vector database. | Built for billion-scale datasets, GPU indexing, hybrid search support. |
+| **[Qdrant](https://github.com/qdrant/qdrant)** | Qdrant | Rust-based vector similarity search engine. | Fast payload filtering, REST/gRPC interfaces, production scale. |
+| **[FAISS](https://github.com/facebookresearch/faiss)** | Meta Research | Library for efficient similarity search of dense vectors. | GPU acceleration, fast index algorithms, local run implementation. |
+| **[Chroma](https://github.com/chroma-core/chroma)** | Chroma Core | Lightweight, developer-friendly open-source vector store. | Fast python setup, ideal for notebooks and rapid prototyping. |
+
+---
+
+## 🎨 Vibe Coding & Generative UI Tools
+Tools designed to let non-technical users or visual developers generate layouts, notes, and whole apps using AI natural language ("vibe coding").
+
+| Tool | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | toeverything | Workspace tool unifying notes, tasks, and graphics. | AI-native drawing, structured page layout generation. |
+| **[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)** | McKay Wrigley | A clean, customizable front-end for LLM APIs. | Custom prompt templates, system instructions, attachment parsing. |
+| **[OpenUI](https://github.com/wandb/openui)** | Weights & Biases | Generates responsive HTML/CSS layouts visually from description. | Direct Tailwind/React component export, interactive design editor. |
 
 ---
 
 ## 📊 Quick Comparison Matrix
 
-| Tool | Primary Form Factor | Open Source? | Local Model Support? | PII / Secrets Protection |
+| Tool | Category | Licensing | Primary Language / Stack | Best Suited For... |
 | :--- | :--- | :--- | :--- | :--- |
-| **Gemini CLI** | CLI Agent | Yes | Yes | Via custom MCP tools / proxy wrappers |
-| **Claude Code** | CLI Agent | No | No | Built-in warnings, compatible with proxies |
-| **Antigravity CLI** | CLI Agent | Yes | Yes | Local environment variable encryption |
-| **Goose** | CLI Agent | Yes | Yes | Via MCP-based security plugins |
-| **OpenCode** | CLI Agent / TUI | Yes | Yes | Local model mode preserves all code locally |
-| **OpenHands** | CLI Agent / Web app | Yes | Yes | Sandbox isolation, privacy configuration |
-| **SWE-agent** | CLI Agent / Framework | Yes | Yes | Isolated container prevents host network leakage |
-| **Cursor** | IDE | No | Partial | Privacy Mode toggles data opt-out |
-| **Continue** | Extension | Yes | Yes | Local/Ollama integration ensures absolute privacy |
-| **CodeGate** | Security Proxy | Yes | Yes | Native PII & Secret Redaction (Local decryption) |
-| **GitHub Copilot** | Extension | No | No | Enterprise policy controls for code exclusion |
+| **Gemini CLI** | CLI Agent | MIT | TypeScript / Node.js | Fast, tool-equipped CLI coding using Google Gemini models |
+| **Claude Code** | CLI Agent | Proprietary | TypeScript / Node.js | Multi-file codebase adjustments using Claude |
+| **Antigravity CLI** | CLI Agent | Proprietary | Python / CLI | Sandboxed multi-agent and browser-based test loops |
+| **Goose** | CLI Agent | Apache-2.0 | Rust / Python | Executing task checklists with MCP plugins |
+| **OpenHands** | CLI Agent / Web | Apache-2.0 | Python / Docker | Isolated container-level SWE benchmarks and repairs |
+| **LangGraph** | Agent Framework | MIT | Python / JS | Custom stateful multi-agent workflows and graph logic |
+| **CrewAI** | Agent Framework | MIT | Python | Role-based agent teams mimicking human software processes |
+| **Ollama** | Serving Engine | MIT | Go / C++ | Running and exposing open-weights models locally |
+| **CodeGate** | Security Proxy | Apache-2.0 | Go / Rust | Masking secrets and PII from outgoing LLM traffic |
+| **Cursor** | Native IDE | Proprietary | VS Code Fork | The most polished, complete AI-native coding environment |
 
 ---
 
