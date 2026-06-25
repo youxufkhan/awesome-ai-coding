@@ -99,10 +99,13 @@ Reusable, structured skills and behavior overrides designed to teach coding agen
 | **[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)** | Imbad0202 | Workflows for research, compilation, drafting, and reviewing papers. | Claude Code / General Agents |
 | **[Agent Skills](https://github.com/addyosmani/agent-skills)** | Addy Osmani | Production-grade software engineering skills. | Generic / Claude Code, Gemini CLI |
 | **[Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills)** | Multica AI | Claude Code behaviors derived from Karpathy's LLM coding pitfall observations. | Claude Code / CLAUDE.md |
+| **[Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | mukul975 | 817 structured cybersecurity skills for AI agents mapped to MITRE, NIST frameworks. | Claude Code / General Agents |
 | **[Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)** | ComposioHQ | Curated list of awesome Claude Skills, resources, and tools. | Claude Code / General Agents |
 | **[Caveman](https://github.com/JuliusBrussee/caveman)** | Julius Brussee | Token-saving skill that rewrites instructions into caveman talk. | Claude Code / General Agents |
 | **[ClawHub](https://github.com/openclaw/clawhub)** | OpenClaw | Skill and plugin registry for OpenClaw agents. | OpenClaw |
+| **[DESIGN.md](https://github.com/google-labs-code/design.md)** | google-labs-code | Format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. | Generic / Coding Agents |
 | **[Graphify](https://github.com/safishamsi/graphify)** | safishamsi | Turn code, schemas, scripts, docs, and media into queryable knowledge graphs. | Claude Code / Codex / Gemini CLI / Cursor |
+| **[gstack](https://github.com/garrytan/gstack)** | Garry Tan | Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Doc Engineer, and QA. | Claude Code / CLAUDE.md |
 | **[Guizang PPT Skill](https://github.com/op7418/guizang-ppt-skill)** | op7418 | AI-agent Skill for generating polished HTML slide decks with Swiss layouts. | Claude Code / Codex / General Agents |
 | **[jscpd](https://github.com/kucherenko/jscpd)** | Andrey Kucherenko | Copy/paste detector for programming source code, AI-ready with token-efficient reporter and skill. | Generic / Coding Agents |
 | **[Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill)** | M. Van Horn | Scrapes and synthesizes web/forum summaries. | Claude Code / Generic Agents |
@@ -133,6 +136,7 @@ Orchestration frameworks that allow developers to design, wire, and deploy compl
 | :--- | :--- | :--- | :--- |
 | **[Agency Agents](https://github.com/msitarzewski/agency-agents)** | msitarzewski | Specialized expert agent pack for creative agencies. | Social media bots, copy editors, UX reviewers, community monitors. |
 | **[Agno](https://github.com/agno-agi/agno)** | Agno AI | Open-source framework for building multi-modal agents. | Fast execution, built-in vector integrations, multi-modal support. |
+| **[AI Berkshire](https://github.com/xbtlin/ai-berkshire)** | xbtlin | A value investing research framework built on Claude Code using multi-agent adversarial analysis. | Python / Claude Code |
 | **[AI Hedge Fund](https://github.com/virattt/ai-hedge-fund)** | virattt | Simulated multi-agent hedge fund team. | Agent roles: market analyst, risk manager, portfolio optimizer, trader. |
 | **[AI Scientist v2](https://github.com/SakanaAI/AI-Scientist-v2)** | SakanaAI | Fully automated scientific discovery agent. | Tree-search planning, paper writing, data generation, automated peer review. |
 | **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft | Multi-agent conversation framework. | Customizable agent personalities, human-in-the-loop, conversable structures. |
@@ -149,6 +153,8 @@ Orchestration frameworks that allow developers to design, wire, and deploy compl
 | **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** | FoundationAgents | Multi-agent framework mimicking software teams. | Simulates product managers, designers, and developers via SOPs. |
 | **[MiroFish](https://github.com/666ghj/MiroFish)** | 666ghj | Swarm intelligence prediction engine. | Multi-node consensus, predictive optimization loops. |
 | **[Multica](https://github.com/multica-ai/multica)** | Multica AI | Managed open-source agent platform. | Skill compounding, real-time progress logging, teammate assign systems. |
+| **[OpenMontage](https://github.com/calesthio/OpenMontage)** | calesthio | Open-source agentic video production system with 12 pipelines, 52 tools, and 500+ agent skills. | Python / Video Generation |
+| **[Page Agent](https://github.com/alibaba/page-agent)** | Alibaba | JavaScript in-page GUI agent that controls web interfaces with natural language. | TypeScript / Web GUI Control |
 | **[ruflo](https://github.com/ruvnet/ruflo)** | ruvnet | Leading agent meta-harness for Claude to deploy multi-agent swarms. | Swarm intelligence, adaptive memory, self-learning workflows, RAG integration. |
 | **[Sim](https://github.com/simstudioai/sim)** | Sim Studio | Workforce agent management layer. | Integrates multi-agent tasks, live team logging, worker synchronization. |
 | **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** | TauricResearch | Multi-agent LLM financial trading framework. | Simulated trading environments, multi-agent portfolios. |
@@ -170,6 +176,8 @@ Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, str
 | **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)** | hiyouga | Unified efficient fine-tuning framework for 100+ LLMs and VLMs. | Web UI dashboard, multi-GPU training support, RLHF/QLoRA methods. |
 | **[LlamaIndex](https://github.com/run-llama/llama_index)** | LlamaIndex | Data framework for LLM/RAG applications. | Data ingestors, indexing tools, structured queries, custom query engines. |
 | **[Mem0](https://github.com/mem0ai/mem0)** | Mem0 | Personalized memory layer for AI agents. | Remembers user preferences, updates context over time, optimizes personalization. |
+| **[MinerU](https://github.com/opendatalab/MinerU)** | OpenDataLab | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for agentic workflows. | High-precision PDF layout extraction, structural element recognition. |
+| **[n8n](https://github.com/n8n-io/n8n)** | n8n-io | Fair-code workflow automation platform with native AI capabilities. | Visual workflow builder, 400+ integrations, native agent/subagent orchestration nodes. |
 | **[OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)** | OpenDataLoader | Open-source PDF parser optimized for LLM training. | High accuracy structure mapping, table extraction, cleans layout noise. |
 | **[OpenViking](https://github.com/volcengine/OpenViking)** | Volcengine | Context database tailored for AI agents. | Persistent agent memory storage, runtime resource management, skill indexes. |
 | **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | PaddlePaddle | Document-to-text OCR parser. | Supports 100+ languages, extracts layout and tables from scanned documents. |
@@ -181,11 +189,12 @@ MCP is a protocol designed to connect LLMs to data, tools, filesystems, and exte
 
 | MCP Server | Creator | Description | Tools / Access Exposed |
 | :--- | :--- | :--- | :--- |
+| **[Agent Toolkit for AWS](https://github.com/aws/agent-toolkit-for-aws)** | AWS | Official AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS. | AWS services access (S3, EC2, Bedrock, etc.) |
 | **[Claude Context MCP](https://github.com/zilliztech/claude-context)** | Zilliz Tech | Vector search-based code search MCP server. | Code search over huge codebases, fast local similarity query tools. |
-| **[MCP Servers Repo](https://github.com/modelcontextprotocol/servers)** | Anthropic | Standard repository of reference MCP servers. | Postgres, SQLite, Slack, GitHub, Puppeteer, Brave Search. |
 | **[Context7](https://github.com/upstash/context7)** | Upstash | Serverless state and tool cache. | Caches tool executions, manages state across agent handoffs. |
-| **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** | Microsoft | Browser automation server. | Exposes headless browser actions (navigate, click, type, screenshot). |
 | **[GitHub MCP Server](https://github.com/github/github-mcp-server)** | GitHub | Official GitHub API bridge. | Lists issues, manages PRs, commits changes, searches repositories. |
+| **[MCP Servers Repo](https://github.com/modelcontextprotocol/servers)** | Anthropic | Standard repository of reference MCP servers. | Postgres, SQLite, Slack, GitHub, Puppeteer, Brave Search. |
+| **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** | Microsoft | Browser automation server. | Exposes headless browser actions (navigate, click, type, screenshot). |
 
 ---
 
@@ -226,11 +235,12 @@ Tools designed to let non-technical users or visual developers generate layouts,
 | Tool | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | toeverything | Workspace tool unifying notes, tasks, and graphics. | AI-native drawing, structured page layout generation. |
-| **[Onyx](https://github.com/onyx-dot-app/onyx)** | Onyx App | Open source chat platform designed for multiple LLMs. | Advanced chat options, workspace customization. |
-| **[Thunderbolt](https://github.com/thunderbird/thunderbolt)** | Thunderbird | Personal client for running customizable AI models. | Local data control, no vendor lock-in UI. |
-| **[NanoChat](https://github.com/karpathy/nanochat)** | Andrej Karpathy | Minimalist ChatGPT clone. | Simple code, easily extensible, fast API connections. |
+| **[AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template)** | JCodesMore | Clone any website with one command using AI coding agents. | TypeScript / Website cloning |
 | **[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)** | McKay Wrigley | A clean, customizable front-end for LLM APIs. | Custom prompt templates, system instructions, attachment parsing. |
+| **[NanoChat](https://github.com/karpathy/nanochat)** | Andrej Karpathy | Minimalist ChatGPT clone. | Simple code, easily extensible, fast API connections. |
+| **[Onyx](https://github.com/onyx-dot-app/onyx)** | Onyx App | Open source chat platform designed for multiple LLMs. | Advanced chat options, workspace customization. |
 | **[OpenUI](https://github.com/wandb/openui)** | Weights & Biases | Generates responsive HTML/CSS layouts visually from description. | Direct Tailwind/React component export, interactive design editor. |
+| **[Thunderbolt](https://github.com/thunderbird/thunderbolt)** | Thunderbird | Personal client for running customizable AI models. | Local data control, no vendor lock-in UI. |
 
 ---
 
@@ -240,6 +250,7 @@ Structured courses, notebooks, and reference materials designed to teach develop
 | Resource | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** | Microsoft | 12-lesson roadmap for learning to build AI agents. | Structured lectures, notebook labs, tool-calling and planning basics. |
+| **[Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice)** | shanraisshan | Guidelines and tips for transition from vibe coding to agentic engineering with Claude Code. | Structured best practices, prompt optimization, workflow patterns. |
 | **[Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)** | shareAI-lab | Educational nano-agent tutorial showing how to build a Claude Code-like harness from scratch. | Code walkthroughs, lightweight bash-to-LLM bindings, agentic tutorials. |
 | **[Modded NanoGPT](https://github.com/KellerJordan/modded-nanogpt)** | Keller Jordan | Extremely fast, modified NanoGPT training repo. | Achieves 124M parameter training in 90 seconds, showcases optimization. |
 | **[Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)** | Andrej Karpathy | Detailed guide to building neural networks from scratch. | From basic backpropagation to GPT, PyTorch labs, video lecture companion. |
