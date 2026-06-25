@@ -1,6 +1,6 @@
 # Awesome AI Coding Tools, IDEs & Agents 🚀
 
-A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-native IDEs, extensions, LLM orchestrators, inference engines, vector databases, MCP servers, and security proxies. Organized to help developers find the right tools for building AI-powered systems or accelerating their engineering workflows.
+A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-native IDEs, extensions, LLM orchestrators, inference engines, vector databases, MCP servers, custom agent skills, security proxies, and educational resources.
 
 ---
 
@@ -8,13 +8,15 @@ A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-
 - [🤖 AI Coding CLI Agents & SWE Systems](#-ai-coding-cli-agents--swe-systems)
 - [💻 AI-Native IDEs & Cloud Workspaces](#-ai-native-ides--cloud-workspaces)
 - [🧩 AI Coding Extensions & Plugins](#-ai-coding-extensions--plugins)
+- [🔌 Custom Agent Skills & Plugins](#-custom-agent-skills--plugins)
 - [🛡️ PII Masking & AI Agent Security Proxies](#️-pii-masking--ai-agent-security-proxies)
 - [⚙️ AI Agent Frameworks & Multi-Agent Platforms](#️-ai-agent-frameworks--multi-agent-platforms)
 - [🛠️ LLM DevTools & Orchestration Infrastructure](#️-llm-devtools--orchestration-infrastructure)
-- [🔌 Model Context Protocol (MCP) Servers](#-model-context-protocol-mcp-servers)
+- [📡 Model Context Protocol (MCP) Servers](#-model-context-protocol-mcp-servers)
 - [⚡ LLM Inference & Local Serving Engines](#-llm-inference--local-serving-engines)
 - [🗄️ Vector Databases & Vector Stores](#️-vector-databases--vector-stores)
 - [🎨 Vibe Coding & Generative UI Tools](#-vibe-coding--generative-ui-tools)
+- [📖 AI Learning & Educational Resources](#-ai-learning--educational-resources)
 - [📊 Quick Comparison Matrix](#-quick-comparison-matrix)
 - [🤝 Contributing](#-contributing)
 
@@ -25,7 +27,7 @@ Autonomous CLI-first software engineering agents that can write code, run comman
 
 | Repository / Agent | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
-| **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Google Gemini | Open-source, terminal-first AI agent powered by Gemini. | ReAct loops, MCP server compatibility, Google Search grounding, git workflows. |
+| **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Google Gemini | An open-source, terminal-first AI agent powered by Gemini. | ReAct loops, MCP server compatibility, Google Search grounding, git workflows. |
 | **[Claude Code](https://github.com/anthropics/claude-code)** | Anthropic | Command-line agent powered by Claude models. | 1M+ token context window, deep reasoning, multi-file code workspace editing. |
 | **[Antigravity CLI](https://github.com/google-deepmind/antigravity)** | Google DeepMind | Advanced agentic CLI pair programmer. | Parallel subagent orchestration, sandboxed browser testing, deep git integration. |
 | **[Goose](https://github.com/block/goose)** | Block | Extensible open-source coding agent. | Local or desktop run modes, built-in MCP client, custom developer plugins. |
@@ -33,8 +35,15 @@ Autonomous CLI-first software engineering agents that can write code, run comman
 | **[Aider](https://github.com/aider-chat/aider)** | Aider-chat | Git-integrated terminal pair programmer. | Edits files in-place, writes automatic git commits, works with local/remote LLMs. |
 | **[OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands)** | All-Hands AI | Docker-sandboxed autonomous coding agent. | Runs shell commands, browses the web, reads/writes code inside isolated containers. |
 | **[SWE-agent](https://github.com/princeton-nlp/SWE-agent)** | Princeton NLP | Agent-Computer Interface (ACI) coder framework. | Top SWE-bench performer, optimized file editing and search tools for LLMs. |
-| **[Pi Agent](https://github.com/earendil-works/pi)** | Earendil Works | Modular coding agent harness and TUI. | LLM connection wrapper, task state persistence, modular CLI tools. |
-| **[Oh My Pi](https://github.com/can1357/oh-my-pi)** | can1357 | High-performance terminal AI pair programmer. | Hash-anchored line diffing, LSP checking, subagent spawns. |
+| **[OpenSWE](https://github.com/langchain-ai/open-swe)** | LangChain AI | Open-source asynchronous coding agent framework. | Stateful planning loops, async task execution, customizable LLM backend routes. |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | OpenClaw | Personal AI assistant running on any platform. | Agentic task orchestration, cross-platform local execution, visual tools. |
+| **[OpenClaude](https://github.com/Gitlawb/openclaude)** | Gitlawb | Adaptable terminal assistant designed to run on any model provider. | Flexible tool bindings, de-coupled backend, command automation. |
+| **[Open Claude Code Decompile](https://github.com/ruvnet/open-claude-code)** | ruvnet | Reverse-engineered and rebuilt nightly Claude Code CLI helper. | Custom hooks, custom execution routing, diagnostic extensions. |
+| **[Pi Agent](https://github.com/earendil-works/pi)** | Earendil Works | A terminal-first AI agent toolkit and harness. | Unified LLM API, agent loop, interactive TUI, session persistence, modular tool architecture. |
+| **[Oh My Pi](https://github.com/can1357/oh-my-pi)** | can1357 | A terminal-native AI coding agent with advanced tool harness. | Hash-anchored edits, LSP integration, browser automation, subagent delegation. |
+| **[PR Agent](https://github.com/The-PR-Agent/pr-agent)** | Qodo / CodiumAI | Autonomous PR reviewer and description generator. | Git provider integrations (GitHub, GitLab, Bitbucket), auto-docs, code suggestions. |
+| **[Oh My Codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex)** | Yeachan Heo | Orchestration hooks and head-up display tools for local coders. | Multi-agent configurations, diagnostic heads, scriptable workflow bindings. |
+| **[Claw Code Example](https://github.com/ultraworkers/claw-code)** | Ultraworkers | Rust-based repository managed automatically by agentic code. | Demonstrates zero human intervention maintenance, autonomous documentation. |
 | **[Plandex](https://github.com/plandex-ai/plandex)** | Plandex AI | Large-task codebase editor. | Sandboxed file staging, handles massive refactoring pipelines. |
 | **[Mentat](https://github.com/ggarrett8/mentat)** | Mentat | Context-aware codebase editor. | Customized file indexing, fast command loop, interactive diff views. |
 | **[GPT-Engineer](https://github.com/gpt-engineer-org/gpt-engineer)** | GPT-Engineer Org | Full codebase generator from prompts. | Generates complete frameworks, interactive query staging. |
@@ -45,7 +54,7 @@ Autonomous CLI-first software engineering agents that can write code, run comman
 ---
 
 ## 💻 AI-Native IDEs & Cloud Workspaces
-Integrated Development Environments (IDEs) built with AI agents at the center of the coding workflow.
+Integrated Development Environments (IDEs) built with AI agents at the center of the coding experience.
 
 | Editor / Workspace | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
@@ -79,12 +88,27 @@ Augmentative extensions to supercharge traditional IDEs (VS Code, JetBrains, Neo
 
 ---
 
+## 🔌 Custom Agent Skills & Plugins
+Reusable, structured skills and behavior overrides designed to teach coding agents (like Claude Code, Gemini CLI, Cline) how to interact with external tools and follow specific protocols.
+
+| Skill / Plugin Repo | Creator | Description | Target Agent / Platform |
+| :--- | :--- | :--- | :--- |
+| **[Agent Skills](https://github.com/addyosmani/agent-skills)** | Addy Osmani | Production-grade software engineering skills. | Generic / Claude Code, Gemini CLI |
+| **[Caveman](https://github.com/JuliusBrussee/caveman)** | Julius Brussee | Token-saving skill that rewrites instructions into caveman talk. | Claude Code / General Agents |
+| **[Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills)** | Multica AI | Claude Code behaviors derived from Karpathy's LLM coding pitfall observations. | Claude Code / CLAUDE.md |
+| **[Obsidian Skills](https://github.com/kepano/obsidian-skills)** | Kepano | Teaches agents to read Markdown, Bases, and JSON Canvas in Obsidian. | Obsidian / Generic Agents |
+| **[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)** | Imbad0202 | Workflows for research, compilation, drafting, and reviewing papers. | Claude Code / General Agents |
+| **[Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill)** | M. Van Horn | Scrapes and synthesizes web/forum summaries. | Claude Code / Generic Agents |
+
+---
+
 ## 🛡️ PII Masking & AI Agent Security Proxies
 Middlewares and gatekeepers that intercept outgoing LLM requests to redact secrets, tokens, and Personally Identifiable Information (PII).
 
 | Tool / Proxy | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[CodeGate](https://github.com/StacklokLabs/spring-ai-codegate-sample)** | Stacklok | Privacy-first local proxy for IDE extensions/CLIs. | Detects/masks PII and API keys, warns of vulnerable packages, local decryption. |
+| **[9router](https://github.com/decolua/9router)** | Decolua | Local proxy and router for AI tools. | Connects CLI agents to 40+ providers, automatic fallbacks, token compression. |
 | **[Clawshield](https://github.com/SleuthCo/clawshield-public)** | SleuthCo | YAML-driven security gateway for dev agents. | Enforces prompt policies, logs outputs, filters outbound credentials. |
 | **[Kiji Proxy](https://github.com/dataiku/kiji-proxy)** | Dataiku | Lightweight PII masking proxy. | Regular expression and NLP-based token masking. |
 | **[WitnessAI](https://witness.ai)** | WitnessAI | Enterprise-grade AI proxy firewall. | Granular policy configurations, real-time agent auditing, schema obscuring. |
@@ -101,29 +125,48 @@ Orchestration frameworks that allow developers to design, wire, and deploy compl
 | **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft | Multi-agent conversation framework. | Customizable agent personalities, human-in-the-loop, conversable structures. |
 | **[CrewAI](https://github.com/crewAIInc/crewAI)** | CrewAI Inc | Role-based agent teams orchestration. | Easy agent role-play definitions, task delegation, sequential or hierarchical execution. |
 | **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** | FoundationAgents | Multi-agent framework mimicking software teams. | Simulates product managers, designers, and developers via standardized SOPs. |
+| **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** | Nous Research | An agent that learns and evolves its internal loop processes. | Self-correction heuristics, modular agent graph, adaptive tool binding. |
+| **[Deer Flow](https://github.com/bytedance/deer-flow)** | ByteDance | Long-horizon SuperAgent harness for automated research. | Deep memory architecture, sandboxed execution, goal decomposition. |
+| **[Multica](https://github.com/multica-ai/multica)** | Multica AI | Managed open-source agent platform. | Skill compounding, real-time progress logging, teammate assign systems. |
+| **[Sim](https://github.com/simstudioai/sim)** | Sim Studio | Workforce agent management layer. | Integrates multi-agent tasks, live team logging, worker synchronization. |
+| **[Generic Agent](https://github.com/lsdefine/GenericAgent)** | lsdefine | Self-evolving AI agent with dynamic skill trees. | Seeded by a 3.3K line Python script, builds its own skills, low token overhead. |
+| **[DeepAgents](https://github.com/langchain-ai/deepagents)** | LangChain AI | Batteries-included agent harness library. | Standard task interfaces, tool execution wrappers, built-in debug trackers. |
+| **[AI Scientist v2](https://github.com/SakanaAI/AI-Scientist-v2)** | SakanaAI | Fully automated scientific discovery agent. | Tree-search planning, paper writing, data generation, automated peer review. |
+| **[Dexter](https://github.com/virattt/dexter)** | virattt | Autonomous agent for deep financial research. | Market scraping, portfolio modeling, automated report drafting. |
+| **[AI Hedge Fund](https://github.com/virattt/ai-hedge-fund)** | virattt | Simulated multi-agent hedge fund team. | Agent roles: market analyst, risk manager, portfolio optimizer, trader. |
+| **[MiroFish](https://github.com/666ghj/MiroFish)** | 666ghj | Swarm intelligence prediction engine. | Multi-node consensus, predictive optimization loops. |
+| **[Agency Agents](https://github.com/msitarzewski/agency-agents)** | msitarzewski | Specialized expert agent pack for creative agencies. | Social media bots, copy editors, UX reviewers, community monitors. |
 | **[BabyAGI](https://github.com/yoheinakajima/babyagi)** | Yohei Nakajima | Lightweight task-driven agent loop. | Simple agent architecture utilizing vector databases and task management pools. |
 | **[Agno](https://github.com/agno-agi/agno)** | Agno AI | Open-source framework for building multi-modal agents. | Fast execution, built-in vector integrations, multi-modal support. |
 
 ---
 
 ## 🛠️ LLM DevTools & Orchestration Infrastructure
-Libraries and SDKs to manage data pipelines, chain prompts, structure outputs, and monitor production AI applications.
+Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, structure outputs, and monitor production AI applications.
 
 | Tool | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | LangChain AI | De facto standard ecosystem for LLM orchestration. | Chains, prompts, data connectors, custom tool integrations, LangSmith observability. |
 | **[Dify](https://github.com/langgenius/dify)** | LangGenius | Visual LLM app building and operations platform. | Workflow orchestrator, prompt engineering UI, vector db integrations, monitoring dashboards. |
 | **[LlamaIndex](https://github.com/run-llama/llama_index)** | LlamaIndex | Data framework for LLM/RAG applications. | Data ingestors, indexing tools, structured queries, custom query engines. |
+| **[CodeGraph](https://github.com/colbymchenry/codegraph)** | Colby McHenry | Pre-indexed local code knowledge graph. | Syncs automatically on git changes, exposes code indexes locally to avoid API calls. |
+| **[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** | Abhigyan Patwari | Client-side, zero-server repository intelligence engine. | Runs in-browser, maps code dependencies, outputs AI-friendly knowledge maps. |
+| **[OpenViking](https://github.com/volcengine/OpenViking)** | Volcengine | Context database tailored for AI agents. | Persistent agent memory storage, runtime resource management, skill indexes. |
+| **[Lightpanda Browser](https://github.com/lightpanda-io/browser)** | Lightpanda | Headless browser built in Zig for AI agents. | High-speed, lightweight DOM execution, optimal for sandboxed agent scraping. |
+| **[OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)** | OpenDataLoader | Open-source PDF parser optimized for LLM training. | High accuracy structure mapping, table extraction, cleans layout noise. |
+| **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | PaddlePaddle | Document-to-text OCR parser. | Supports 100+ languages, extracts layout and tables from scanned documents. |
+| **[Heretic](https://github.com/p-e-w/heretic)** | p-e-w | Automatic model censorship removal tool. | Local model tuning layer, automated system alignment bypass. |
 | **[Flowise](https://github.com/FlowiseAI/Flowise)** | FlowiseAI | Drag & drop UI for building LangChain/LlamaIndex apps. | Visual nodes, instant API endpoints, chat widget deployments. |
 | **[Mem0](https://github.com/mem0ai/mem0)** | Mem0 | Personalized memory layer for AI agents. | Remembers user preferences, updates context over time, optimizes personalization. |
 
 ---
 
-## 🔌 Model Context Protocol (MCP) Servers
-MCP is a protocol designed to connect LLMs to data, tools, filesystems, and external APIs. These servers expose local or remote systems to MCP-compliant agents (e.g. Gemini CLI, Claude Code, Cline).
+## 📡 Model Context Protocol (MCP) Servers
+MCP is a protocol designed to connect LLMs to data, tools, filesystems, and external APIs. Exposes services to MCP-compliant agents (e.g. Gemini CLI, Claude Code, Cline).
 
 | MCP Server | Creator | Description | Tools / Access Exposed |
 | :--- | :--- | :--- | :--- |
+| **[Claude Context MCP](https://github.com/zilliztech/claude-context)** | Zilliz Tech | Vector search-based code search MCP server. | Code search over huge codebases, fast local similarity query tools. |
 | **[MCP Servers Repo](https://github.com/modelcontextprotocol/servers)** | Anthropic | Standard repository of reference MCP servers. | Postgres, SQLite, Slack, GitHub, Puppeteer, Brave Search. |
 | **[Context7](https://github.com/upstash/context7)** | Upstash | Serverless state and tool cache. | Caches tool executions, manages state across agent handoffs. |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** | Microsoft | Browser automation server. | Exposes headless browser actions (navigate, click, type, screenshot). |
@@ -139,6 +182,7 @@ Engines designed to run, serve, and perform inference with large language models
 | **[Ollama](https://github.com/ollama/ollama)** | Ollama | Package and run LLMs locally on macOS, Linux, and Windows. | Simple CLI, one-line installs (Llama 3, Phi, Qwen), OpenAI compatible API. |
 | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | GGML Org | High-performance inference engine in C/C++. | CPU/GPU execution, low memory overhead, broad hardware support. |
 | **[vLLM](https://github.com/vllm-project/vllm)** | vLLM Project | High-throughput, memory-efficient LLM serving engine. | PagedAttention, continuous batching, distributed inference, serving API. |
+| **[LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM)** | Google AI Edge | Edge device model inference engine. | Highly optimized for mobile devices and embedded hardware. |
 | **[GPT4All](https://github.com/nomic-ai/gpt4all)** | Nomic AI | Desktop app and SDK for local LLM execution. | Runs locally on consumer GPUs/CPUs, built-in search/document RAG capabilities. |
 | **[LocalAI](https://github.com/mudler/LocalAI)** | mudler | Drop-in OpenAI replacement for local models. | Supports audio generation, images, embedding, and text models. |
 | **[Text-generation-webui](https://github.com/oobabooga/text-generation-webui)** | oobabooga | Gradio web UI for running local models. | Supports transformers, llama.cpp, ExLlamaV2, custom parameter sliders. |
@@ -165,8 +209,23 @@ Tools designed to let non-technical users or visual developers generate layouts,
 | Tool | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | toeverything | Workspace tool unifying notes, tasks, and graphics. | AI-native drawing, structured page layout generation. |
+| **[Onyx](https://github.com/onyx-dot-app/onyx)** | Onyx App | Open source chat platform designed for multiple LLMs. | Advanced chat options, workspace customization. |
+| **[Thunderbolt](https://github.com/thunderbird/thunderbolt)** | Thunderbird | Personal client for running customizable AI models. | Local data control, no vendor lock-in UI. |
+| **[NanoChat](https://github.com/karpathy/nanochat)** | Andrej Karpathy | Minimalist ChatGPT clone. | Simple code, easily extensible, fast API connections. |
 | **[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)** | McKay Wrigley | A clean, customizable front-end for LLM APIs. | Custom prompt templates, system instructions, attachment parsing. |
 | **[OpenUI](https://github.com/wandb/openui)** | Weights & Biases | Generates responsive HTML/CSS layouts visually from description. | Direct Tailwind/React component export, interactive design editor. |
+
+---
+
+## 📖 AI Learning & Educational Resources
+Structured courses, notebooks, and reference materials designed to teach developers how to design neural networks and build AI agents from scratch.
+
+| Resource | Creator | Description | Key Features |
+| :--- | :--- | :--- | :--- |
+| **[AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** | Microsoft | 12-lesson roadmap for learning to build AI agents. | Structured lectures, notebook labs, tool-calling and planning basics. |
+| **[Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)** | Andrej Karpathy | Detailed guide to building neural networks from scratch. | From basic backpropagation to GPT, PyTorch labs, video lecture companion. |
+| **[Modded NanoGPT](https://github.com/KellerJordan/modded-nanogpt)** | Keller Jordan | Extremely fast, modified NanoGPT training repo. | Achieves 124M parameter training in 90 seconds, showcases optimization. |
+| **[Unsloth](https://github.com/unslothai/unsloth)** | Unsloth AI | Web UI and training environment for fine-tuning open weights models. | 2x-5x faster model training, lightweight local setup (Gemma, Qwen, DeepSeek). |
 
 ---
 
