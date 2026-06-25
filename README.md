@@ -122,15 +122,20 @@ Reusable, structured skills and behavior overrides designed to teach coding agen
 
 ---
 
-## 🛡️ PII Masking & AI Agent Security Proxies
-Middlewares and gatekeepers that intercept outgoing LLM requests to redact secrets, tokens, and Personally Identifiable Information (PII).
+## 🛡️ AI Gateways, Proxies & Agent Security
+Middlewares, security gatekeepers, and routing gateways that manage LLM traffic, load balance queries, track costs, and redact secrets or PII.
 
 | Tool / Proxy | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
-| 🟢 **[CodeGate](https://github.com/StacklokLabs/spring-ai-codegate-sample)** <br> [![Stars](https://img.shields.io/github/stars/StacklokLabs/spring-ai-codegate-sample?style=flat-square&label=%E2%98%85)](https://github.com/StacklokLabs/spring-ai-codegate-sample) | Stacklok | Privacy-first local proxy for IDE extensions/CLIs. | Detects/masks PII and API keys, warns of vulnerable packages, local decryption. |
 | 🟡 **[9router](https://github.com/decolua/9router)** <br> [![Stars](https://img.shields.io/github/stars/decolua/9router?style=flat-square&label=%E2%98%85)](https://github.com/decolua/9router) | Decolua | Local proxy and router for AI tools. | Connects CLI agents to 40+ providers, automatic fallbacks, token compression. |
 | 🔴 **[Clawshield](https://github.com/SleuthCo/clawshield-public)** <br> [![Stars](https://img.shields.io/github/stars/SleuthCo/clawshield-public?style=flat-square&label=%E2%98%85)](https://github.com/SleuthCo/clawshield-public) | SleuthCo | YAML-driven security gateway for dev agents. | Enforces prompt policies, logs outputs, filters outbound credentials. |
+| 🟢 **[CodeGate](https://github.com/stacklok/codegate)** <br> [![Stars](https://img.shields.io/github/stars/stacklok/codegate?style=flat-square&label=%E2%98%85)](https://github.com/stacklok/codegate) | Stacklok | Privacy-first local proxy for IDE extensions/CLIs. | Detects/masks PII and API keys, warns of vulnerable packages, local decryption. |
 | 🔴 **[Kiji Proxy](https://github.com/dataiku/kiji-proxy)** <br> [![Stars](https://img.shields.io/github/stars/dataiku/kiji-proxy?style=flat-square&label=%E2%98%85)](https://github.com/dataiku/kiji-proxy) | Dataiku | Lightweight PII masking proxy. | Regular expression and NLP-based token masking. |
+| 🟢 **[LiteLLM](https://github.com/BerriAI/litellm)** <br> [![Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85)](https://github.com/BerriAI/litellm) | BerriAI | Call 100+ LLM APIs using the OpenAI format. Proxy server for load balancing, cost tracking, and fallbacks. | Load balancer, budget manager, billing tracking, fallback routing. |
+| 🟡 **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** <br> [![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=flat-square&label=%E2%98%85)](https://github.com/diegosouzapw/OmniRoute) | diegosouzapw | AI gateway supporting smart routing, load balancing, retries, and fallback mechanisms for multi-provider LLMs. | OpenAI-compatible endpoint, retries, multi-provider fallbacks. |
+| 🟢 **[One API](https://github.com/songquanpeng/one-api)** <br> [![Stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=flat-square&label=%E2%98%85)](https://github.com/songquanpeng/one-api) | songquanpeng | Multi-provider LLM API key management, distribution, and billing proxy system. | OpenAI API format wrapper, multi-user quotas, custom billing. |
+| 🟢 **[Portkey AI Gateway](https://github.com/Portkey-AI/gateway)** <br> [![Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=flat-square&label=%E2%98%85)](https://github.com/Portkey-AI/gateway) | Portkey-AI | High-performance, open-source AI gateway to route, load-balance, cache, and monitor LLM queries. | 50+ LLM integrations, fast routing, caching, observability. |
+| 🟢 **[RouteLLM](https://github.com/lm-sys/RouteLLM)** <br> [![Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=flat-square&label=%E2%98%85)](https://github.com/lm-sys/RouteLLM) | lm-sys | Open-source framework for cost-saving LLM routing, sending simpler queries to smaller models and complex queries to larger ones. | Cost optimization, router training and evaluation, BERT-based routing models. |
 | 🟢 **[WitnessAI](https://witness.ai)** | WitnessAI | Enterprise-grade AI proxy firewall. | Granular policy configurations, real-time agent auditing, schema obscuring. |
 
 ---
