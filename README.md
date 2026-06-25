@@ -151,6 +151,7 @@ Orchestration frameworks that allow developers to design, wire, and deploy compl
 | **[Multica](https://github.com/multica-ai/multica)** | Multica AI | Managed open-source agent platform. | Skill compounding, real-time progress logging, teammate assign systems. |
 | **[ruflo](https://github.com/ruvnet/ruflo)** | ruvnet | Leading agent meta-harness for Claude to deploy multi-agent swarms. | Swarm intelligence, adaptive memory, self-learning workflows, RAG integration. |
 | **[Sim](https://github.com/simstudioai/sim)** | Sim Studio | Workforce agent management layer. | Integrates multi-agent tasks, live team logging, worker synchronization. |
+| **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** | TauricResearch | Multi-agent LLM financial trading framework. | Simulated trading environments, multi-agent portfolios. |
 
 ---
 
@@ -159,18 +160,19 @@ Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, str
 
 | Tool | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
-| **[LangChain](https://github.com/langchain-ai/langchain)** | LangChain AI | De facto standard ecosystem for LLM orchestration. | Chains, prompts, data connectors, custom tool integrations, LangSmith observability. |
-| **[Dify](https://github.com/langgenius/dify)** | LangGenius | Visual LLM app building and operations platform. | Workflow orchestrator, prompt engineering UI, vector db integrations, monitoring dashboards. |
-| **[LlamaIndex](https://github.com/run-llama/llama_index)** | LlamaIndex | Data framework for LLM/RAG applications. | Data ingestors, indexing tools, structured queries, custom query engines. |
 | **[CodeGraph](https://github.com/colbymchenry/codegraph)** | Colby McHenry | Pre-indexed local code knowledge graph. | Syncs automatically on git changes, exposes code indexes locally to avoid API calls. |
-| **[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** | Abhigyan Patwari | Client-side, zero-server repository intelligence engine. | Runs in-browser, maps code dependencies, outputs AI-friendly knowledge maps. |
-| **[OpenViking](https://github.com/volcengine/OpenViking)** | Volcengine | Context database tailored for AI agents. | Persistent agent memory storage, runtime resource management, skill indexes. |
-| **[Lightpanda Browser](https://github.com/lightpanda-io/browser)** | Lightpanda | Headless browser built in Zig for AI agents. | High-speed, lightweight DOM execution, optimal for sandboxed agent scraping. |
-| **[OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)** | OpenDataLoader | Open-source PDF parser optimized for LLM training. | High accuracy structure mapping, table extraction, cleans layout noise. |
-| **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | PaddlePaddle | Document-to-text OCR parser. | Supports 100+ languages, extracts layout and tables from scanned documents. |
-| **[Heretic](https://github.com/p-e-w/heretic)** | p-e-w | Automatic model censorship removal tool. | Local model tuning layer, automated system alignment bypass. |
+| **[Dify](https://github.com/langgenius/dify)** | LangGenius | Visual LLM app building and operations platform. | Workflow orchestrator, prompt engineering UI, vector db integrations, monitoring dashboards. |
 | **[Flowise](https://github.com/FlowiseAI/Flowise)** | FlowiseAI | Drag & drop UI for building LangChain/LlamaIndex apps. | Visual nodes, instant API endpoints, chat widget deployments. |
+| **[GitNexus](https://github.com/abhigyanpatwari/GitNexus)** | Abhigyan Patwari | Client-side, zero-server repository intelligence engine. | Runs in-browser, maps code dependencies, outputs AI-friendly knowledge maps. |
+| **[Heretic](https://github.com/p-e-w/heretic)** | p-e-w | Automatic model censorship removal tool. | Local model tuning layer, automated system alignment bypass. |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | LangChain AI | De facto standard ecosystem for LLM orchestration. | Chains, prompts, data connectors, custom tool integrations, LangSmith observability. |
+| **[Lightpanda Browser](https://github.com/lightpanda-io/browser)** | Lightpanda | Headless browser built in Zig for AI agents. | High-speed, lightweight DOM execution, optimal for sandboxed agent scraping. |
+| **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)** | hiyouga | Unified efficient fine-tuning framework for 100+ LLMs and VLMs. | Web UI dashboard, multi-GPU training support, RLHF/QLoRA methods. |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | LlamaIndex | Data framework for LLM/RAG applications. | Data ingestors, indexing tools, structured queries, custom query engines. |
 | **[Mem0](https://github.com/mem0ai/mem0)** | Mem0 | Personalized memory layer for AI agents. | Remembers user preferences, updates context over time, optimizes personalization. |
+| **[OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)** | OpenDataLoader | Open-source PDF parser optimized for LLM training. | High accuracy structure mapping, table extraction, cleans layout noise. |
+| **[OpenViking](https://github.com/volcengine/OpenViking)** | Volcengine | Context database tailored for AI agents. | Persistent agent memory storage, runtime resource management, skill indexes. |
+| **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | PaddlePaddle | Document-to-text OCR parser. | Supports 100+ languages, extracts layout and tables from scanned documents. |
 
 ---
 
@@ -238,8 +240,10 @@ Structured courses, notebooks, and reference materials designed to teach develop
 | Resource | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
 | **[AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)** | Microsoft | 12-lesson roadmap for learning to build AI agents. | Structured lectures, notebook labs, tool-calling and planning basics. |
-| **[Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)** | Andrej Karpathy | Detailed guide to building neural networks from scratch. | From basic backpropagation to GPT, PyTorch labs, video lecture companion. |
+| **[Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)** | shareAI-lab | Educational nano-agent tutorial showing how to build a Claude Code-like harness from scratch. | Code walkthroughs, lightweight bash-to-LLM bindings, agentic tutorials. |
 | **[Modded NanoGPT](https://github.com/KellerJordan/modded-nanogpt)** | Keller Jordan | Extremely fast, modified NanoGPT training repo. | Achieves 124M parameter training in 90 seconds, showcases optimization. |
+| **[Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)** | Andrej Karpathy | Detailed guide to building neural networks from scratch. | From basic backpropagation to GPT, PyTorch labs, video lecture companion. |
+| **[Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)** | DAIR.AI | Curated guides, papers, notebooks, and learning paths for prompt/context engineering and AI agents. | Structured papers index, learning materials, system prompt models. |
 | **[Unsloth](https://github.com/unslothai/unsloth)** | Unsloth AI | Web UI and training environment for fine-tuning open weights models. | 2x-5x faster model training, lightweight local setup (Gemma, Qwen, DeepSeek). |
 
 ---
