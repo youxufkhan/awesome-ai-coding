@@ -106,6 +106,7 @@ Integrated Development Environments (IDEs) built with AI agents at the center of
 
 | Editor / Workspace | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
+| 🟡 **[Better Agent](https://github.com/ofekron/better-agent)** <br> [![Stars](https://img.shields.io/github/stars/ofekron/better-agent?style=flat-square&label=%E2%98%85)](https://github.com/ofekron/better-agent) | Ofek Ron | Local web workspace for persistent Claude, Codex, and Gemini coding-agent sessions. | Detached crash-recoverable runners, session forks and delegation, cross-provider history, LAN and mobile access. |
 | 🟢 **[Cherry Studio](https://github.com/CherryHQ/cherry-studio)** <br> [![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=%E2%98%85)](https://github.com/CherryHQ/cherry-studio) | CherryHQ | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. | Unified access to frontier LLMs, multiple assistant panels, offline capabilities. |
 | 🟡 **[ClawX](https://github.com/ValueCell-ai/ClawX)** <br> [![Stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=flat-square&label=%E2%98%85)](https://github.com/ValueCell-ai/ClawX) | ValueCell-ai | Graphical desktop interface for OpenClaw AI agents. | Visual agent configuration, no-code execution controls, local execution logs. |
 | 🟢 **[Cursor](https://www.cursor.com/)** | Anysphere | Leading VS Code fork with deep AI integration. | "Composer" multi-file agent, autocomplete, inline codebase chat, custom index. |
