@@ -12,6 +12,16 @@ A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-
 
 ## 📋 Changelog
 
+### 2026-08-03 — Weekly Update
+**Added:**
+- [ai-agent-skills](https://github.com/wednesday-solutions/ai-agent-skills) → Custom Agent Skills
+- [mcp-go](https://github.com/mark3labs/mcp-go) → MCP Servers
+- [5ire](https://github.com/nanbingxyz/5ire) → AI-Native IDEs
+- [Awesome-Vibecoding-Guide](https://github.com/bobvibes/Awesome-Vibecoding-Guide) → Vibe Coding
+- [easy-vibe](https://github.com/datawhalechina/easy-vibe) → Vibe Coding
+- [aim](https://github.com/aimhubio/aim) → LLM DevTools
+- [openllmetry](https://github.com/traceloop/openllmetry) → LLM DevTools
+
 ### 2026-07-19 — Weekly Update
 **Added:**
 - [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) → LLM DevTools
@@ -180,7 +190,9 @@ Middlewares, security gatekeepers, and routing gateways that manage LLM traffic,
 
 | Tool / Proxy | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
+| 🟡 **[5ire](https://github.com/nanbingxyz/5ire)** <br> [![Stars](https://img.shields.io/github/stars/nanbingxyz/5ire?style=flat-square&label=%E2%98%85)](https://github.com/nanbingxyz/5ire) | nanbingxyz | Cross-platform AI desktop assistant functioning as an MCP client. | Cross-platform AI desktop assistant, MCP client support, multi-provider integration |
 | 🟡 **[9router](https://github.com/decolua/9router)** <br> [![Stars](https://img.shields.io/github/stars/decolua/9router?style=flat-square&label=%E2%98%85)](https://github.com/decolua/9router) | Decolua | Local proxy and router for AI tools. | Connects CLI agents to 40+ providers, automatic fallbacks, token compression. |
+| 🟡 **[ai-agent-skills](https://github.com/wednesday-solutions/ai-agent-skills)** <br> [![Stars](https://img.shields.io/github/stars/wednesday-solutions/ai-agent-skills?style=flat-square&label=%E2%98%85)](https://github.com/wednesday-solutions/ai-agent-skills) | wednesday-solutions | Pre-configured agent skill definitions for Cursor and Claude Code. | Pre-configured agent skill definitions, Cursor & Claude integration, prompt patterns |
 | 🔴 **[Clawshield](https://github.com/SleuthCo/clawshield-public)** <br> [![Stars](https://img.shields.io/github/stars/SleuthCo/clawshield-public?style=flat-square&label=%E2%98%85)](https://github.com/SleuthCo/clawshield-public) | SleuthCo | YAML-driven security gateway for dev agents. | Enforces prompt policies, logs outputs, filters outbound credentials. |
 | 🟢 **[CodeGate](https://github.com/stacklok/codegate)** <br> [![Stars](https://img.shields.io/github/stars/stacklok/codegate?style=flat-square&label=%E2%98%85)](https://github.com/stacklok/codegate) | Stacklok | Privacy-first local proxy for IDE extensions/CLIs. | Detects/masks PII and API keys, warns of vulnerable packages, local decryption. |
 | 🟢 **[FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi)** <br> [![Stars](https://img.shields.io/github/stars/tashfeenahmed/freellmapi?style=flat-square&label=%E2%98%85)](https://github.com/tashfeenahmed/freellmapi) | tashfeenahmed | Aggregated LLM proxy for free tiers. | Combines 16+ provider free tiers into one OpenAI-compatible endpoint with automatic failover. |
@@ -194,7 +206,6 @@ Middlewares, security gatekeepers, and routing gateways that manage LLM traffic,
 | 🟡 **[Strix](https://github.com/usestrix/strix)** <br> [![Stars](https://img.shields.io/github/stars/usestrix/strix?style=flat-square&label=%E2%98%85)](https://github.com/usestrix/strix) | usestrix | AI-powered penetration testing security tool. | Finds, tests, and auto-patches security vulnerabilities within agentic CI pipelines. |
 | 🟢 **[WitnessAI](https://witness.ai)** | WitnessAI | Enterprise-grade AI proxy firewall. | Granular policy configurations, real-time agent auditing, schema obscuring. |
 
----
 
 ## ⚙️ AI Agent Frameworks & Multi-Agent Platforms
 Orchestration frameworks that allow developers to design, wire, and deploy complex autonomous agent teams.
@@ -241,6 +252,7 @@ Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, str
 | :--- | :--- | :--- | :--- |
 | 🟡 **[Agent-Reach](https://github.com/Panniantong/Agent-Reach)** <br> [![Stars](https://img.shields.io/github/stars/Panniantong/Agent-Reach?style=flat-square&label=%E2%98%85)](https://github.com/Panniantong/Agent-Reach) | Panniantong | External internet search harness for agents. | Scraping and reading web pages, social media, and forums without API fees. |
 | 🔴 **[AgentiCOW](https://github.com/ruvnet/agenticow)** <br> [![Stars](https://img.shields.io/github/stars/ruvnet/agenticow?style=flat-square&label=%E2%98%85)](https://github.com/ruvnet/agenticow) | ruvnet | Copy-on-Write memory branching tool. | Multi-agent vector database memory snapshots, 83x faster than full persistence. |
+| 🟡 **[aim](https://github.com/aimhubio/aim)** <br> [![Stars](https://img.shields.io/github/stars/aimhubio/aim?style=flat-square&label=%E2%98%85)](https://github.com/aimhubio/aim) | aimhubio | Modular, easy-to-use open-source AI metadata tracking framework. | Open-source AI metadata tracking, ML experiment monitoring, UI dashboard |
 | 🟢 **[Claude Video](https://github.com/bradautomates/claude-video)** <br> [![Stars](https://img.shields.io/github/stars/bradautomates/claude-video?style=flat-square&label=%E2%98%85)](https://github.com/bradautomates/claude-video) | bradautomates | Gives Claude the ability to watch any video via download, frame extraction, and transcription. | Video downloads, frame extraction, automated transcription |
 | 🔴 **[ClipCannon](https://github.com/ChrisRoyse/clipcannon)** <br> [![Stars](https://img.shields.io/github/stars/ChrisRoyse/clipcannon?style=flat-square&label=%E2%98%85)](https://github.com/ChrisRoyse/clipcannon) | Chris Royse | AI-driven video processing tool that maps transcripts and media segments into semantic vector clusters. | Teleological constellations mapping, video content vector indexing, semantic search. |
 | 🔴 **[CodeGraph](https://github.com/colbymchenry/codegraph)** <br> [![Stars](https://img.shields.io/github/stars/colbymchenry/codegraph?style=flat-square&label=%E2%98%85)](https://github.com/colbymchenry/codegraph) | Colby McHenry | Pre-indexed local code knowledge graph. | Syncs automatically on git changes, exposes code indexes locally to avoid API calls. |
@@ -262,6 +274,7 @@ Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, str
 | 🟢 **[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)** <br> [![Stars](https://img.shields.io/github/stars/iOfficeAI/OfficeCLI?style=flat-square&label=%E2%98%85)](https://github.com/iOfficeAI/OfficeCLI) | iOfficeAI | Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. | Single binary, no Office installation required, document automation |
 | 🟢 **[olmOCR](https://github.com/allenai/olmocr)** <br> [![Stars](https://img.shields.io/github/stars/allenai/olmocr?style=flat-square&label=%E2%98%85)](https://github.com/allenai/olmocr) | Allen Institute for AI | Toolkit for linearizing PDF documents into clean markdown for LLMs. | PDF layout analysis, clean text extraction, markdown linearization |
 | 🔴 **[OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)** <br> [![Stars](https://img.shields.io/github/stars/opendataloader-project/opendataloader-pdf?style=flat-square&label=%E2%98%85)](https://github.com/opendataloader-project/opendataloader-pdf) | OpenDataLoader | Open-source PDF parser optimized for LLM training. | High accuracy structure mapping, table extraction, cleans layout noise. |
+| 🟡 **[openllmetry](https://github.com/traceloop/openllmetry)** <br> [![Stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square&label=%E2%98%85)](https://github.com/traceloop/openllmetry) | traceloop | Open-source telemetry for LLM applications based on OpenTelemetry. | OpenTelemetry-based LLM observability, trace logging, performance metrics |
 | 🔴 **[OpenViking](https://github.com/volcengine/OpenViking)** <br> [![Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=flat-square&label=%E2%98%85)](https://github.com/volcengine/OpenViking) | Volcengine | Context database tailored for AI agents. | Persistent agent memory storage, runtime resource management, skill indexes. |
 | 🟢 **[openwiki](https://github.com/langchain-ai/openwiki)** <br> [![Stars](https://img.shields.io/github/stars/langchain-ai/openwiki?style=flat-square&label=%E2%98%85)](https://github.com/langchain-ai/openwiki) | langchain-ai | OpenWiki is a CLI that writes and maintains agent documentation for your codebase. | Automated, open-source |
 | 🟢 **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** <br> [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square&label=%E2%98%85)](https://github.com/PaddlePaddle/PaddleOCR) | PaddlePaddle | Document-to-text OCR parser. | Supports 100+ languages, extracts layout and tables from scanned documents. |
@@ -270,7 +283,6 @@ Libraries, SDKs, parsers, and intelligence engines to manage data pipelines, str
 | 🟢 **[TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** <br> [![Stars](https://img.shields.io/github/stars/TencentCloud/TencentDB-Agent-Memory?style=flat-square&label=%E2%98%85)](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentCloud | TencentDB Agent Memory delivers fully local long-term memory for AI Agents. | Automated, open-source |
 | 🟢 **[Video Use](https://github.com/browser-use/video-use)** <br> [![Stars](https://img.shields.io/github/stars/browser-use/video-use?style=flat-square&label=%E2%98%85)](https://github.com/browser-use/video-use) | browser-use | Edit videos using autonomous coding agents. | Video editing interface, agent workflow orchestration, media automation |
 
----
 
 ## 📡 Model Context Protocol (MCP) Servers
 MCP is a protocol designed to connect LLMs to data, tools, filesystems, and external APIs. Exposes services to MCP-compliant agents (e.g. Gemini CLI, Claude Code, Cline).
@@ -284,9 +296,9 @@ MCP is a protocol designed to connect LLMs to data, tools, filesystems, and exte
 | 🟢 **[Desktop Commander MCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)** <br> [![Stars](https://img.shields.io/github/stars/wonderwhy-er/DesktopCommanderMCP?style=flat-square&label=%E2%98%85)](https://github.com/wonderwhy-er/DesktopCommanderMCP) | wonderwhy-er | MCP server for Claude that provides terminal control, file system search, and diff editing. | Terminal control, file search, diff file editing |
 | 🟢 **[GitHub MCP Server](https://github.com/github/github-mcp-server)** <br> [![Stars](https://img.shields.io/github/stars/github/github-mcp-server?style=flat-square&label=%E2%98%85)](https://github.com/github/github-mcp-server) | GitHub | Official GitHub API bridge. | Lists issues, manages PRs, commits changes, searches repositories. |
 | 🟢 **[MCP Servers Repo](https://github.com/modelcontextprotocol/servers)** <br> [![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square&label=%E2%98%85)](https://github.com/modelcontextprotocol/servers) | Anthropic | Standard repository of reference MCP servers. | Postgres, SQLite, Slack, GitHub, Puppeteer, Brave Search. |
+| 🟡 **[mcp-go](https://github.com/mark3labs/mcp-go)** <br> [![Stars](https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat-square&label=%E2%98%85)](https://github.com/mark3labs/mcp-go) | mark3labs | Go implementation of the Model Context Protocol SDK and server framework. | Go SDK for Model Context Protocol, server framework, client binding |
 | 🟢 **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** <br> [![Stars](https://img.shields.io/github/stars/microsoft/playwright-mcp?style=flat-square&label=%E2%98%85)](https://github.com/microsoft/playwright-mcp) | Microsoft | Browser automation server. | Exposes headless browser actions (navigate, click, type, screenshot). |
 
----
 
 ## ⚡ LLM Inference & Local Serving Engines
 Engines designed to run, serve, and perform inference with large language models locally or in private clouds.
@@ -329,8 +341,10 @@ Tools designed to let non-technical users or visual developers generate layouts,
 | 🟢 **[AFFiNE](https://github.com/toeverything/AFFiNE)** <br> [![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat-square&label=%E2%98%85)](https://github.com/toeverything/AFFiNE) | toeverything | Workspace tool unifying notes, tasks, and graphics. | AI-native drawing, structured page layout generation. |
 | 🔴 **[AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template)** <br> [![Stars](https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat-square&label=%E2%98%85)](https://github.com/JCodesMore/ai-website-cloner-template) | JCodesMore | Clone any website with one command using AI coding agents. | TypeScript / Website cloning |
 | 🟡 **[Astryx](https://github.com/facebook/astryx)** <br> [![Stars](https://img.shields.io/github/stars/facebook/astryx?style=flat-square&label=%E2%98%85)](https://github.com/facebook/astryx) | Facebook | Agent-ready open-source design system. | Fully customizable design system components tailored for LLM visual generation. |
+| 🟡 **[Awesome-Vibecoding-Guide](https://github.com/bobvibes/Awesome-Vibecoding-Guide)** <br> [![Stars](https://img.shields.io/github/stars/bobvibes/Awesome-Vibecoding-Guide?style=flat-square&label=%E2%98%85)](https://github.com/bobvibes/Awesome-Vibecoding-Guide) | bobvibes | Curated compendium of patterns, tools, and guides for vibe coding workflows. | Curated vibe coding patterns, developer tools, prompt workflow guides |
 | 🟢 **[bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** <br> [![Stars](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy?style=flat-square&label=%E2%98%85)](https://github.com/stackblitz-labs/bolt.diy) | stackblitz-labs | Prompt, run, edit, and deploy full-stack web applications using any LLM you want! | Automated, open-source |
 | 🟢 **[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)** <br> [![Stars](https://img.shields.io/github/stars/mckaywrigley/chatbot-ui?style=flat-square&label=%E2%98%85)](https://github.com/mckaywrigley/chatbot-ui) | McKay Wrigley | A clean, customizable front-end for LLM APIs. | Custom prompt templates, system instructions, attachment parsing. |
+| 🟡 **[easy-vibe](https://github.com/datawhalechina/easy-vibe)** <br> [![Stars](https://img.shields.io/github/stars/datawhalechina/easy-vibe?style=flat-square&label=%E2%98%85)](https://github.com/datawhalechina/easy-vibe) | datawhalechina | Interactive guide and toolset for natural language-driven software development. | Interactive vibe coding guide, natural language programming, template suite |
 | 🟡 **[InsForge](https://github.com/InsForge/InsForge)** <br> [![Stars](https://img.shields.io/github/stars/InsForge/InsForge?style=flat-square&label=%E2%98%85)](https://github.com/InsForge/InsForge) | InsForge | Backend-as-a-service (BaaS) platform optimized for agentic coding. | PostgreSQL database, auth, storage, edge functions, structured schemas for AI agent usage. |
 | 🟢 **[Meetily](https://github.com/Zackriya-Solutions/meetily)** <br> [![Stars](https://img.shields.io/github/stars/Zackriya-Solutions/meetily?style=flat-square&label=%E2%98%85)](https://github.com/Zackriya-Solutions/meetily) | Zackriya Solutions | Privacy-first, local AI meeting assistant with Whisper transcription, speaker diarization, and Ollama summarization. | 100% local processing, Whisper transcription, speaker diarization |
 | 🔴 **[NanoChat](https://github.com/karpathy/nanochat)** <br> [![Stars](https://img.shields.io/github/stars/karpathy/nanochat?style=flat-square&label=%E2%98%85)](https://github.com/karpathy/nanochat) | Andrej Karpathy | Minimalist ChatGPT clone. | Simple code, easily extensible, fast API connections. |
@@ -339,7 +353,6 @@ Tools designed to let non-technical users or visual developers generate layouts,
 | 🟡 **[OpenUI](https://github.com/wandb/openui)** <br> [![Stars](https://img.shields.io/github/stars/wandb/openui?style=flat-square&label=%E2%98%85)](https://github.com/wandb/openui) | Weights & Biases | Generates responsive HTML/CSS layouts visually from description. | Direct Tailwind/React component export, interactive design editor. |
 | 🔴 **[Thunderbolt](https://github.com/thunderbird/thunderbolt)** <br> [![Stars](https://img.shields.io/github/stars/thunderbird/thunderbolt?style=flat-square&label=%E2%98%85)](https://github.com/thunderbird/thunderbolt) | Thunderbird | Personal client for running customizable AI models. | Local data control, no vendor lock-in UI. |
 
----
 
 ## 📖 AI Learning & Educational Resources
 Structured courses, notebooks, and reference materials designed to teach developers how to design neural networks and build AI agents from scratch.
