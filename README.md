@@ -108,6 +108,7 @@ Autonomous CLI-first software engineering agents that can write code, run comman
 | 🟡 **[Goose](https://github.com/aaif-goose/goose)** <br> [![Stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat-square&label=%E2%98%85)](https://github.com/aaif-goose/goose) | Agentic AI Foundation (AAIF) | Extensible open-source coding agent. | Local or desktop run modes, built-in MCP client, custom developer plugins. |
 | 🟡 **[my-opencode-config](https://github.com/youxufkhan/my-opencode-config)** <br> [![Stars](https://img.shields.io/github/stars/youxufkhan/my-opencode-config?style=flat-square&label=%E2%98%85)](https://github.com/youxufkhan/my-opencode-config) | youxufkhan | CLI tool to auto-configure OpenCode with free AI models. | Automated, open-source |
 | 🟢 **[SWE-agent](https://github.com/swe-agent/swe-agent)** <br> [![Stars](https://img.shields.io/github/stars/swe-agent/swe-agent?style=flat-square&label=%E2%98%85)](https://github.com/swe-agent/swe-agent) | swe-agent | SWE-agent takes a GitHub issue and tries to automatically fix it. | Automated, open-source |
+| 🟡 **[YYLO](https://github.com/yylo-dev/yylo)** <br> [![Stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=flat-square&label=%E2%98%85)](https://github.com/yylo-dev/yylo) | yylo-dev | Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries. | Dedicated branch/worktree per task, merge queue with risk-based review, receipt-backed repository changes. |
 
 ---
 
