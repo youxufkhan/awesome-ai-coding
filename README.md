@@ -14,6 +14,7 @@ A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-
 
 ### 2026-09-19 — Weekly Update
 **Added:**
+- [molt](https://github.com/solvyxtech/molt) → AI Coding CLI Agents
 - [Pi](https://github.com/earendil-works/pi) → AI Coding CLI Agents
 - [Qwen Code](https://github.com/QwenLM/qwen-code) → AI Coding CLI Agents
 - [avante.nvim](https://github.com/avante-corp/avante.nvim) → AI Coding Extensions
@@ -141,6 +142,7 @@ Autonomous CLI-first software engineering agents that can write code, run comman
 | 🟡 **[Devika](https://github.com/mufeedvh/devika)** <br> [![Stars](https://img.shields.io/github/stars/mufeedvh/devika?style=flat-square&label=%E2%98%85)](https://github.com/mufeedvh/devika) | Mufeed VH | Open-source clone of Cognition's Devin. | Plan-execute-monitor coding loops, agentic browser search. |
 | 🟡 **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** <br> [![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square&label=%E2%98%85)](https://github.com/google-gemini/gemini-cli) | Google Gemini | An open-source, terminal-first AI agent powered by Gemini. | ReAct loops, MCP server compatibility, Google Search grounding, git workflows. |
 | 🟡 **[Goose](https://github.com/aaif-goose/goose)** <br> [![Stars](https://img.shields.io/github/stars/aaif-goose/goose?style=flat-square&label=%E2%98%85)](https://github.com/aaif-goose/goose) | Agentic AI Foundation (AAIF) | Extensible open-source coding agent. | Local or desktop run modes, built-in MCP client, custom developer plugins. |
+| 🟡 **[molt](https://github.com/solvyxtech/molt)** <br> [![Stars](https://img.shields.io/github/stars/solvyxtech/molt?style=flat-square&label=%E2%98%85)](https://github.com/solvyxtech/molt) | solvyxtech | Open-source terminal and desktop coding agent that refuses "done" until project checks pass on disk. | `.molt/done.yml` verification, accept/refuse receipts, OpenAI-compatible or Anthropic. |
 | 🟡 **[my-opencode-config](https://github.com/youxufkhan/my-opencode-config)** <br> [![Stars](https://img.shields.io/github/stars/youxufkhan/my-opencode-config?style=flat-square&label=%E2%98%85)](https://github.com/youxufkhan/my-opencode-config) | youxufkhan | CLI tool to auto-configure OpenCode with free AI models. | Automated, open-source |
 | 🟢 **[OpenCode](https://github.com/anomalyco/opencode)** <br> [![Stars](https://img.shields.io/github/stars/anomalyco/opencode?style=flat-square&label=%E2%98%85)](https://github.com/anomalyco/opencode) | anomalyco | The open-source terminal AI coding agent. | Terminal coding agent, multi-model support, LSP integration, autonomous tool execution. |
 | 🟢 **[Pi](https://github.com/earendil-works/pi)** <br> [![Stars](https://img.shields.io/github/stars/earendil-works/pi?style=flat-square&label=%E2%98%85)](https://github.com/earendil-works/pi) | earendil-works | Modular AI coding agent toolkit featuring a unified LLM API, interactive TUI, and extensible agent execution loop. | Unified LLM API, interactive TUI, extensible tool loop, coding CLI |
