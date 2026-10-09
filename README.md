@@ -14,6 +14,7 @@ A curated, comprehensive list of awesome AI coding tools, autonomous agents, AI-
 
 ### 2026-10-08 — Weekly Update
 **Added:**
+- [Tale](https://github.com/tale-project/tale) → AI Agent Frameworks
 - [Omnigent](https://github.com/omnigent-ai/omnigent) → AI Agent Frameworks
 - [pstack-claude](https://github.com/michael-denyer/pstack-claude) → Custom Agent Skills
 - [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) → Custom Agent Skills
@@ -345,6 +346,7 @@ Orchestration frameworks that allow developers to design, wire, and deploy compl
 | 🟢 **[pydantic-ai](https://github.com/pydantic/pydantic-ai)** <br> [![Stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat-square&label=%E2%98%85)](https://github.com/pydantic/pydantic-ai) | pydantic | AI Agent Framework, the Pydantic way. | Automated, open-source |
 | 🟡 **[ruflo](https://github.com/ruvnet/ruflo)** <br> [![Stars](https://img.shields.io/github/stars/ruvnet/ruflo?style=flat-square&label=%E2%98%85)](https://github.com/ruvnet/ruflo) | ruvnet | Leading agent meta-harness for Claude to deploy multi-agent swarms. | Swarm intelligence, adaptive memory, self-learning workflows, RAG integration. |
 | 🟡 **[Sim](https://github.com/simstudioai/sim)** <br> [![Stars](https://img.shields.io/github/stars/simstudioai/sim?style=flat-square&label=%E2%98%85)](https://github.com/simstudioai/sim) | Sim Studio | Workforce agent management layer. | Integrates multi-agent tasks, live team logging, worker synchronization. |
+| 🔴 **[Tale](https://github.com/tale-project/tale)** <br> [![Stars](https://img.shields.io/github/stars/tale-project/tale?style=flat-square&label=%E2%98%85)](https://github.com/tale-project/tale) | Ruler GmbH | Self-hosted team workspace for coordinating project tasks across coding-agent runtimes. | Claude Code/Codex runtime support, shared knowledge, task reports and deliverable review. |
 | 🔴 **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** <br> [![Stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=flat-square&label=%E2%98%85)](https://github.com/TauricResearch/TradingAgents) | TauricResearch | Multi-agent LLM financial trading framework. | Simulated trading environments, multi-agent portfolios. |
 
 ---
