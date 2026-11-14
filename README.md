@@ -224,6 +224,7 @@ Integrated Development Environments (IDEs) built with AI agents at the center of
 
 | Editor / Workspace | Creator | Description | Key Features |
 | :--- | :--- | :--- | :--- |
+| 🟡 **[Althar](https://github.com/AltharIDE/althar)** <br> [![Stars](https://img.shields.io/github/stars/AltharIDE/althar?style=flat-square&label=%E2%98%85)](https://github.com/AltharIDE/althar) | AltharIDE | Open-source desktop ADE for coordinating coding agents. | Task delegation, separate model review, existing Claude Code and Codex sign-ins. |
 | 🟢 **[Cherry Studio](https://github.com/CherryHQ/cherry-studio)** <br> [![Stars](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=%E2%98%85)](https://github.com/CherryHQ/cherry-studio) | CherryHQ | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. | Unified access to frontier LLMs, multiple assistant panels, offline capabilities. |
 | 🟡 **[ClawX](https://github.com/ValueCell-ai/ClawX)** <br> [![Stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=flat-square&label=%E2%98%85)](https://github.com/ValueCell-ai/ClawX) | ValueCell-ai | Graphical desktop interface for OpenClaw AI agents. | Visual agent configuration, no-code execution controls, local execution logs. |
 | 🟢 **[Cursor](https://www.cursor.com/)** | Anysphere | Leading VS Code fork with deep AI integration. | "Composer" multi-file agent, autocomplete, inline codebase chat, custom index. |
